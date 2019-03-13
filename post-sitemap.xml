@@ -88,14 +88,6 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/slideoutjs/</loc>
-        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://sapjil.github.io/schist-free-font/</loc>
         <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -104,8 +96,8 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/polya-free-font/</loc>
-        <lastmod>2019-03-13T11:37:29.236Z</lastmod>
+        <loc>https://sapjil.github.io/slideoutjs/</loc>
+        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -113,6 +105,14 @@
 
     <url>
         <loc>https://sapjil.github.io/placeholder-images/</loc>
+        <lastmod>2019-03-13T11:37:29.236Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://sapjil.github.io/polya-free-font/</loc>
         <lastmod>2019-03-13T11:37:29.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -136,7 +136,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/photoshop-guideguide/</loc>
+        <loc>https://sapjil.github.io/photoshop-copic-swatches/</loc>
         <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -144,7 +144,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/photoshop-copic-swatches/</loc>
+        <loc>https://sapjil.github.io/photoshop-guideguide/</loc>
         <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -184,7 +184,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/free-illust-girlysozai/</loc>
+        <loc>https://sapjil.github.io/free-illust-dachojugiga/</loc>
         <lastmod>2019-03-13T11:37:29.233Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -192,7 +192,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/free-illust-dachojugiga/</loc>
+        <loc>https://sapjil.github.io/free-illust-girlysozai/</loc>
         <lastmod>2019-03-13T11:37:29.233Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -216,7 +216,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/free-icon-kitchen/</loc>
+        <loc>https://sapjil.github.io/free-font-bundle-2018/</loc>
         <lastmod>2019-03-13T11:37:29.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -224,7 +224,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/free-font-bundle-2018/</loc>
+        <loc>https://sapjil.github.io/free-icon-kitchen/</loc>
         <lastmod>2019-03-13T11:37:29.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -264,7 +264,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/css3-anicolle/</loc>
+        <loc>https://sapjil.github.io/different-domain-css/</loc>
         <lastmod>2019-03-13T11:37:29.230Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -280,7 +280,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/different-domain-css/</loc>
+        <loc>https://sapjil.github.io/css3-anicolle/</loc>
         <lastmod>2019-03-13T11:37:29.230Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

@@ -162,11 +162,11 @@
     
       <category term="freebie" scheme="https://sapjil.github.io/tags/freebie/"/>
     
+      <category term="free" scheme="https://sapjil.github.io/tags/free/"/>
+    
       <category term="free font" scheme="https://sapjil.github.io/tags/free-font/"/>
     
       <category term="font" scheme="https://sapjil.github.io/tags/font/"/>
-    
-      <category term="free" scheme="https://sapjil.github.io/tags/free/"/>
     
       <category term="무료" scheme="https://sapjil.github.io/tags/%EB%AC%B4%EB%A3%8C/"/>
     
@@ -220,11 +220,11 @@
     
       <category term="sapjil" scheme="https://sapjil.github.io/tags/sapjil/"/>
     
+      <category term="삽질" scheme="https://sapjil.github.io/tags/%EC%82%BD%EC%A7%88/"/>
+    
       <category term="illust" scheme="https://sapjil.github.io/tags/illust/"/>
     
       <category term="일러스트" scheme="https://sapjil.github.io/tags/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8/"/>
-    
-      <category term="삽질" scheme="https://sapjil.github.io/tags/%EC%82%BD%EC%A7%88/"/>
     
       <category term="girlysozai" scheme="https://sapjil.github.io/tags/girlysozai/"/>
     
@@ -274,11 +274,11 @@
     
       <category term="sapjil" scheme="https://sapjil.github.io/tags/sapjil/"/>
     
+      <category term="삽질" scheme="https://sapjil.github.io/tags/%EC%82%BD%EC%A7%88/"/>
+    
       <category term="illust" scheme="https://sapjil.github.io/tags/illust/"/>
     
       <category term="일러스트" scheme="https://sapjil.github.io/tags/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8/"/>
-    
-      <category term="삽질" scheme="https://sapjil.github.io/tags/%EC%82%BD%EC%A7%88/"/>
     
       <category term="무료일러스트" scheme="https://sapjil.github.io/tags/%EB%AC%B4%EB%A3%8C%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8/"/>
     
@@ -324,11 +324,11 @@
     
       <category term="sapjil" scheme="https://sapjil.github.io/tags/sapjil/"/>
     
+      <category term="삽질" scheme="https://sapjil.github.io/tags/%EC%82%BD%EC%A7%88/"/>
+    
       <category term="illust" scheme="https://sapjil.github.io/tags/illust/"/>
     
       <category term="일러스트" scheme="https://sapjil.github.io/tags/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8/"/>
-    
-      <category term="삽질" scheme="https://sapjil.github.io/tags/%EC%82%BD%EC%A7%88/"/>
     
       <category term="일본" scheme="https://sapjil.github.io/tags/%EC%9D%BC%EB%B3%B8/"/>
     
@@ -366,19 +366,19 @@
     
       <category term="freebie" scheme="https://sapjil.github.io/tags/freebie/"/>
     
+      <category term="free" scheme="https://sapjil.github.io/tags/free/"/>
+    
       <category term="free font" scheme="https://sapjil.github.io/tags/free-font/"/>
     
-      <category term="font" scheme="https://sapjil.github.io/tags/font/"/>
+      <category term="폰트" scheme="https://sapjil.github.io/tags/%ED%8F%B0%ED%8A%B8/"/>
     
-      <category term="free" scheme="https://sapjil.github.io/tags/free/"/>
+      <category term="font" scheme="https://sapjil.github.io/tags/font/"/>
     
       <category term="무료" scheme="https://sapjil.github.io/tags/%EB%AC%B4%EB%A3%8C/"/>
     
       <category term="무료폰트" scheme="https://sapjil.github.io/tags/%EB%AC%B4%EB%A3%8C%ED%8F%B0%ED%8A%B8/"/>
     
       <category term="공짜" scheme="https://sapjil.github.io/tags/%EA%B3%B5%EC%A7%9C/"/>
-    
-      <category term="폰트" scheme="https://sapjil.github.io/tags/%ED%8F%B0%ED%8A%B8/"/>
     
       <category term="sapjil" scheme="https://sapjil.github.io/tags/sapjil/"/>
     
@@ -500,13 +500,13 @@
     
       <category term="css" scheme="https://sapjil.github.io/tags/css/"/>
     
-      <category term="coding" scheme="https://sapjil.github.io/tags/coding/"/>
-    
       <category term="css3" scheme="https://sapjil.github.io/tags/css3/"/>
     
-      <category term="normalize" scheme="https://sapjil.github.io/tags/normalize/"/>
+      <category term="coding" scheme="https://sapjil.github.io/tags/coding/"/>
     
       <category term="reset" scheme="https://sapjil.github.io/tags/reset/"/>
+    
+      <category term="normalize" scheme="https://sapjil.github.io/tags/normalize/"/>
     
       <category term="markup" scheme="https://sapjil.github.io/tags/markup/"/>
     
@@ -534,8 +534,6 @@
       <category term="www" scheme="https://sapjil.github.io/category/www/"/>
     
     
-      <category term="reset" scheme="https://sapjil.github.io/tags/reset/"/>
-    
       <category term="백업" scheme="https://sapjil.github.io/tags/%EB%B0%B1%EC%97%85/"/>
     
       <category term="버전관리" scheme="https://sapjil.github.io/tags/%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/"/>
@@ -555,6 +553,8 @@
       <category term="commit" scheme="https://sapjil.github.io/tags/commit/"/>
     
       <category term="origin" scheme="https://sapjil.github.io/tags/origin/"/>
+    
+      <category term="reset" scheme="https://sapjil.github.io/tags/reset/"/>
     
       <category term="master" scheme="https://sapjil.github.io/tags/master/"/>
     
@@ -732,15 +732,15 @@
     
       <category term="freebie" scheme="https://sapjil.github.io/tags/freebie/"/>
     
-      <category term="free font" scheme="https://sapjil.github.io/tags/free-font/"/>
-    
       <category term="free" scheme="https://sapjil.github.io/tags/free/"/>
     
-      <category term="폰트" scheme="https://sapjil.github.io/tags/%ED%8F%B0%ED%8A%B8/"/>
+      <category term="free font" scheme="https://sapjil.github.io/tags/free-font/"/>
     
       <category term="Bonkers" scheme="https://sapjil.github.io/tags/Bonkers/"/>
     
       <category term="무료 폰트" scheme="https://sapjil.github.io/tags/%EB%AC%B4%EB%A3%8C-%ED%8F%B0%ED%8A%B8/"/>
+    
+      <category term="폰트" scheme="https://sapjil.github.io/tags/%ED%8F%B0%ED%8A%B8/"/>
     
       <category term="산세리프" scheme="https://sapjil.github.io/tags/%EC%82%B0%EC%84%B8%EB%A6%AC%ED%94%84/"/>
     
@@ -856,13 +856,13 @@
       <category term="www" scheme="https://sapjil.github.io/category/www/"/>
     
     
-      <category term="css3" scheme="https://sapjil.github.io/tags/css3/"/>
-    
       <category term="생성기" scheme="https://sapjil.github.io/tags/%EC%83%9D%EC%84%B1%EA%B8%B0/"/>
     
       <category term="제네레이터" scheme="https://sapjil.github.io/tags/%EC%A0%9C%EB%84%A4%EB%A0%88%EC%9D%B4%ED%84%B0/"/>
     
       <category term="generate" scheme="https://sapjil.github.io/tags/generate/"/>
+    
+      <category term="css3" scheme="https://sapjil.github.io/tags/css3/"/>
     
       <category term="gradients" scheme="https://sapjil.github.io/tags/gradients/"/>
     
@@ -894,19 +894,19 @@
     
       <category term="freebie" scheme="https://sapjil.github.io/tags/freebie/"/>
     
+      <category term="free" scheme="https://sapjil.github.io/tags/free/"/>
+    
       <category term="free font" scheme="https://sapjil.github.io/tags/free-font/"/>
     
-      <category term="font" scheme="https://sapjil.github.io/tags/font/"/>
+      <category term="폰트" scheme="https://sapjil.github.io/tags/%ED%8F%B0%ED%8A%B8/"/>
     
-      <category term="free" scheme="https://sapjil.github.io/tags/free/"/>
+      <category term="font" scheme="https://sapjil.github.io/tags/font/"/>
     
       <category term="무료" scheme="https://sapjil.github.io/tags/%EB%AC%B4%EB%A3%8C/"/>
     
       <category term="무료폰트" scheme="https://sapjil.github.io/tags/%EB%AC%B4%EB%A3%8C%ED%8F%B0%ED%8A%B8/"/>
     
       <category term="공짜" scheme="https://sapjil.github.io/tags/%EA%B3%B5%EC%A7%9C/"/>
-    
-      <category term="폰트" scheme="https://sapjil.github.io/tags/%ED%8F%B0%ED%8A%B8/"/>
     
       <category term="sapjil" scheme="https://sapjil.github.io/tags/sapjil/"/>
     

@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://sapjil.github.io/about/</loc>
+        <lastmod>2019-03-13T14:14:04.210Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://sapjil.github.io/tags/</loc>
         <lastmod>2019-03-13T11:37:29.246Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -24,13 +31,6 @@
     <url>
         <loc>https://sapjil.github.io/categories/</loc>
         <lastmod>2019-03-13T11:37:29.242Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://sapjil.github.io/about/</loc>
-        <lastmod>2019-03-13T11:37:29.241Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
