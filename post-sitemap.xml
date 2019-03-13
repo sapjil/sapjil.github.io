@@ -16,7 +16,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/wordpress-underscores/</loc>
+        <loc>https://sapjil.github.io/wordpress-theme-seo-setting/</loc>
         <lastmod>2019-03-13T11:37:29.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -24,7 +24,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/wordpress-theme-seo-setting/</loc>
+        <loc>https://sapjil.github.io/wordpress-underscores/</loc>
         <lastmod>2019-03-13T11:37:29.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -112,7 +112,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/resetcss-normalizecss/</loc>
+        <loc>https://sapjil.github.io/placeholder-images/</loc>
         <lastmod>2019-03-13T11:37:29.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -120,7 +120,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/placeholder-images/</loc>
+        <loc>https://sapjil.github.io/resetcss-normalizecss/</loc>
         <lastmod>2019-03-13T11:37:29.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -136,14 +136,6 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/photoshop-copic-swatches/</loc>
-        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://sapjil.github.io/photoshop-guideguide/</loc>
         <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -152,8 +144,8 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/free-photoshop-text-effects/</loc>
-        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
+        <loc>https://sapjil.github.io/photoshop-copic-swatches/</loc>
+        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -161,6 +153,14 @@
 
     <url>
         <loc>https://sapjil.github.io/freebie-mockup/</loc>
+        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://sapjil.github.io/free-photoshop-text-effects/</loc>
         <lastmod>2019-03-13T11:37:29.234Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -232,7 +232,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/eclipse-shortcut-key/</loc>
+        <loc>https://sapjil.github.io/free-font-argon/</loc>
         <lastmod>2019-03-13T11:37:29.231Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -240,7 +240,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/free-font-argon/</loc>
+        <loc>https://sapjil.github.io/eclipse-shortcut-key/</loc>
         <lastmod>2019-03-13T11:37:29.231Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -256,7 +256,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/css3-gradients-generate-blend/</loc>
+        <loc>https://sapjil.github.io/css-priorities/</loc>
         <lastmod>2019-03-13T11:37:29.230Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -272,7 +272,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/different-domain-css/</loc>
+        <loc>https://sapjil.github.io/css3-gradients-generate-blend/</loc>
         <lastmod>2019-03-13T11:37:29.230Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -280,7 +280,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.github.io/css-priorities/</loc>
+        <loc>https://sapjil.github.io/different-domain-css/</loc>
         <lastmod>2019-03-13T11:37:29.230Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
