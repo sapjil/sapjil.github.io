@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang=ko>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- -->
+    <meta property="article:publisher" content="https://www.facebook.com/sapjilnet">
+    <meta property="article:author" content="https://www.facebook.com/sapjilnet">
+    <!-- <meta property="article:published_time" content="2018-04-17T14:08:03Z">
+    <meta property="article:modified_time" content="2018-04-17T14:08:03Z">
+    <meta itemprop="image" content="http://farm1.staticflickr.com/856/39707622230_a362ec5127_b.jpg"> -->
+
+    <meta name="description" content="이제는 많이 안정화 되었다고 생각되는 Adobe &apos;Brackets&apos;로 코딩작업시에 작업시간을 단축시켜주어 업무효율을 올려줄것이라 기대되는 플러그인들을 위주로 정리해 보았습니다.">
+<meta name="keywords" content="adobe,coding,plugin,sapjil,삽질,플러그인,확장기능,extension,guide,git,outline,document,merge,todo,emmet,zencoding,linter,w3c,sass,hint,sinppets,lorem,comb,ipsum,autoprefixer,brackets,코딩,효율성">
+<meta property="og:type" content="article">
+<meta property="og:title" content="코딩의 작업효율을 올려주는 Brackets 확장기능">
+<meta property="og:url" content="https://sapjil.github.io/brackets-extension/index.html">
+<meta property="og:site_name" content="SAPJIL">
+<meta property="og:description" content="이제는 많이 안정화 되었다고 생각되는 Adobe &apos;Brackets&apos;로 코딩작업시에 작업시간을 단축시켜주어 업무효율을 올려줄것이라 기대되는 플러그인들을 위주로 정리해 보았습니다.">
+<meta property="og:locale" content="ko">
+<meta property="og:image" content="https://c3.staticflickr.com/8/7098/27885232610_e6d8fa513b_b.jpg">
+<meta property="og:image" content="https://c4.staticflickr.com/8/7713/28086454611_c2f7f2ccac_z.jpg">
+<meta property="og:image" content="https://c3.staticflickr.com/8/7334/27880636290_d787bd8749_z.jpg">
+<meta property="og:image" content="https://c2.staticflickr.com/8/7492/28083604881_91466ed12d_z.jpg">
+<meta property="og:image" content="https://c4.staticflickr.com/8/7650/27547759403_1bd5982642_z.jpg">
+<meta property="og:image" content="https://c1.staticflickr.com/8/7485/28057938192_0f60502f16_z.jpg">
+<meta property="og:image" content="https://c5.staticflickr.com/8/7523/28057938412_8d5204d2f8_z.jpg">
+<meta property="og:image" content="https://c5.staticflickr.com/8/7352/28129207916_daa5c9d48c_z.jpg">
+<meta property="og:image" content="https://c4.staticflickr.com/8/7352/28162153955_2974f1478d_z.jpg">
+<meta property="og:image" content="https://c5.staticflickr.com/8/7577/28058617652_12f4a12860_z.jpg">
+<meta property="og:image" content="https://c1.staticflickr.com/8/7543/27546820504_39395d6585_z.jpg">
+<meta property="og:image" content="https://c3.staticflickr.com/8/7624/28128947266_cd341d6a7a_z.jpg">
+<meta property="og:image" content="https://c4.staticflickr.com/8/7518/28085151771_66cce7c78d_z.jpg">
+<meta property="og:image" content="https://c3.staticflickr.com/8/7433/28059430322_d4efb4b5dd_z.jpg">
+<meta property="og:image" content="https://c6.staticflickr.com/8/7568/28086320301_7beecbaa2b_z.jpg">
+<meta property="og:updated_time" content="2019-03-13T11:37:29.229Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="코딩의 작업효율을 올려주는 Brackets 확장기능">
+<meta name="twitter:description" content="이제는 많이 안정화 되었다고 생각되는 Adobe &apos;Brackets&apos;로 코딩작업시에 작업시간을 단축시켜주어 업무효율을 올려줄것이라 기대되는 플러그인들을 위주로 정리해 보았습니다.">
+<meta name="twitter:image" content="https://c3.staticflickr.com/8/7098/27885232610_e6d8fa513b_b.jpg">
+<meta name="twitter:creator" content="@sapjilnet">
+<meta property="fb:admins" content="1017282400">
+    
+    <!-- 추가 -->
+    <link rel="canonical" href="https://sapjil.github.io/brackets-extension/">
+    <!-- 추가 -->
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>코딩의 작업효율을 올려주는 Brackets 확장기능 - SAPJIL</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/freefont-glamor/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/weinre-mobile-debugging/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://sapjil.github.io/brackets-extension/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://sapjil.github.io/brackets-extension/&text=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://sapjil.github.io/brackets-extension/&title=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://sapjil.github.io/brackets-extension/&is_video=false&description=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=코딩의 작업효율을 올려주는 Brackets 확장기능&body=Check out this article: https://sapjil.github.io/brackets-extension/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://sapjil.github.io/brackets-extension/&title=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://sapjil.github.io/brackets-extension/&title=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://sapjil.github.io/brackets-extension/&title=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://sapjil.github.io/brackets-extension/&title=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://sapjil.github.io/brackets-extension/&name=코딩의 작업효율을 올려주는 Brackets 확장기능&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#확장기능-인스톨"><span class="toc-number">1.</span> <span class="toc-text">확장기능 인스톨</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#추천-확장기능1"><span class="toc-number">2.</span> <span class="toc-text">추천 확장기능1</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Color-Merge"><span class="toc-number">2.1.</span> <span class="toc-text">Color Merge</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Document-Outline"><span class="toc-number">2.2.</span> <span class="toc-text">Document Outline</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tabs-Custom-working"><span class="toc-number">2.3.</span> <span class="toc-text">Tabs - Custom working</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Indent-G"><span class="toc-number">2.4.</span> <span class="toc-text">Indent G</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Todo"><span class="toc-number">2.5.</span> <span class="toc-text">Todo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Emmet"><span class="toc-number">2.6.</span> <span class="toc-text">Emmet</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#추천-확장기능2"><span class="toc-number">3.</span> <span class="toc-text">추천 확장기능2</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Interactive-Linter"><span class="toc-number">3.1.</span> <span class="toc-text">Interactive Linter</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SASSHint"><span class="toc-number">3.2.</span> <span class="toc-text">SASSHint</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#W3CValidation"><span class="toc-number">3.3.</span> <span class="toc-text">W3CValidation</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#기타-확장기능"><span class="toc-number">4.</span> <span class="toc-text">기타 확장기능</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Brackets-Outline-List"><span class="toc-number">4.1.</span> <span class="toc-text">Brackets Outline List</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Brackets-Git"><span class="toc-number">4.2.</span> <span class="toc-text">Brackets Git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Brackets-Snippets-by-edc"><span class="toc-number">4.3.</span> <span class="toc-text">Brackets Snippets (by edc)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#QuickForm-Tool"><span class="toc-number">4.4.</span> <span class="toc-text">QuickForm Tool</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lorem-Pixel"><span class="toc-number">4.5.</span> <span class="toc-text">Lorem Pixel</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lorem-Ipsum"><span class="toc-number">4.6.</span> <span class="toc-text">Lorem Ipsum</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Markdown-Preview"><span class="toc-number">4.7.</span> <span class="toc-text">Markdown Preview</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CSS-Comb"><span class="toc-number">4.8.</span> <span class="toc-text">CSS Comb</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Beauty"><span class="toc-number">4.9.</span> <span class="toc-text">Beauty</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Autoprefixer"><span class="toc-number">4.10.</span> <span class="toc-text">Autoprefixer</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#TOP-100-extensions"><span class="toc-number">5.</span> <span class="toc-text">TOP - 100 extensions</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        코딩의 작업효율을 올려주는 Brackets 확장기능
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">SAPJIL</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2016-07-08T09:00:00.000Z" itemprop="datePublished">2016-07-08</time>
+        
+        (Updated: <time datetime="2019-03-13T11:37:29.229Z" itemprop="dateModified">2019-03-13</time>)
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/category/coding/">coding</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/adobe/">adobe</a>, <a class="tag-link" href="/tags/autoprefixer/">autoprefixer</a>, <a class="tag-link" href="/tags/brackets/">brackets</a>, <a class="tag-link" href="/tags/coding/">coding</a>, <a class="tag-link" href="/tags/comb/">comb</a>, <a class="tag-link" href="/tags/document/">document</a>, <a class="tag-link" href="/tags/emmet/">emmet</a>, <a class="tag-link" href="/tags/extension/">extension</a>, <a class="tag-link" href="/tags/git/">git</a>, <a class="tag-link" href="/tags/guide/">guide</a>, <a class="tag-link" href="/tags/hint/">hint</a>, <a class="tag-link" href="/tags/ipsum/">ipsum</a>, <a class="tag-link" href="/tags/linter/">linter</a>, <a class="tag-link" href="/tags/lorem/">lorem</a>, <a class="tag-link" href="/tags/merge/">merge</a>, <a class="tag-link" href="/tags/outline/">outline</a>, <a class="tag-link" href="/tags/plugin/">plugin</a>, <a class="tag-link" href="/tags/sapjil/">sapjil</a>, <a class="tag-link" href="/tags/sass/">sass</a>, <a class="tag-link" href="/tags/sinppets/">sinppets</a>, <a class="tag-link" href="/tags/todo/">todo</a>, <a class="tag-link" href="/tags/w3c/">w3c</a>, <a class="tag-link" href="/tags/zencoding/">zencoding</a>, <a class="tag-link" href="/tags/삽질/">삽질</a>, <a class="tag-link" href="/tags/코딩/">코딩</a>, <a class="tag-link" href="/tags/플러그인/">플러그인</a>, <a class="tag-link" href="/tags/확장기능/">확장기능</a>, <a class="tag-link" href="/tags/효율성/">효율성</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p><img src="https://c3.staticflickr.com/8/7098/27885232610_e6d8fa513b_b.jpg" alt="sapjil-Brackets"></p>
+<p>계속해서 Sublime Text 3로 즐거운(?) 코딩 생활을 지속하는데 있어 불편함은 전혀 없지만, 새로운 에디터를 활용해보고자 Adobe Brackets를 사용해보았습니다.</p>
+<p>작년까지 잠깐 사용해 볼때는 Sublime에 너무 익숙해서인지 편리성 같은 건 잘 느끼지 못한채 살짝 위화감까지 있었는데 이번에 잠시 사용해 보면서 정말 필요했던 기능을 발견했던터라 몇일간 데모 사이트를 구축해보면서 이것저것 필요해보이는 플러그인들을 깔아보고 쓸만 하다고 생각되는것 몇가지를 어디까지나 개인적인 관점에서 소개하고자 합니다.</p>
+<p><i class="fa fa-list-alt"></i> <strong>table of contents</strong></p>
+<ul>
+<li><p>확장기능 인스톨</p>
+</li>
+<li><p>추천 확장기능 1</p>
+<ul>
+<li><a href="#Color Merge">Color Merge</a> - CSS에 적용된 컬러를 뽑아서 팔레트로 표시</li>
+<li><a href="#Document-Outline">Document Outline</a> - HTML5문서의 아웃라인을 표시</li>
+<li><a href="#Tabs-Custom-working">Tabs - Custom working</a> - 열려있는 각 파일간을 Tab으로 이동</li>
+<li><a href="#Indent-Guides">Indent Guides</a> - 문서에 인덴트 적용</li>
+<li><a href="#Todo">Todo</a> - 문서상의 todo를 확인</li>
+<li><a href="#Emmet">Emmet</a> - 젠코딩</li>
+</ul>
+</li>
+<li><p>추천 확장기능 2</p>
+<ul>
+<li><a href="#Interactive-Linter">Interactive Linter</a> - 각종 오류체크 확인</li>
+<li><a href="#SASSHint">SASSHint</a> - SASS에서 사용된 변수값을 쉽게 불러올수 있게 해줌</li>
+<li><a href="#W3CValidation">W3CValidation</a> - w3c의 문법을 체크</li>
+</ul>
+</li>
+<li><p>기타 확장기능</p>
+<ul>
+<li><a href="#Brackets-Outline-List">Brackets Outline List</a></li>
+<li><a href="#Brackets-Git">Brackets Git</a></li>
+<li><a href="#Brackets-Snippets-by-edc">Brackets Snippets (by edc)</a></li>
+<li><a href="#QuickForm-Tool">QuickForm Tool</a></li>
+<li><a href="#Lorem-Pixel">Lorem Pixel</a></li>
+<li><a href="#Lorem-Ipsum">Lorem Ipsum</a></li>
+<li><a href="#Markdown-Preview">Markdown Preview</a></li>
+<li><a href="#CSS-Comb">CSS Comb</a></li>
+<li><a href="#Beauty">Beauty</a></li>
+<li><a href="#Autoprefixer">Autoprefixer</a></li>
+</ul>
+</li>
+</ul>
+<p><a href="#TOP-100-extensions">TOP – 100 extensions</a></p>
+<h2 id="확장기능-인스톨"><a href="#확장기능-인스톨" class="headerlink" title="확장기능 인스톨"></a>확장기능 인스톨</h2><p><img src="https://c4.staticflickr.com/8/7713/28086454611_c2f7f2ccac_z.jpg" alt="Brackets"></p>
+<p>따로 설명이 필요 없겠지만, 플러그인을 설치 할때는 검색해서 찾아서 설치버튼을 누르면 됩니다. 쉽죠?</p>
+<h2 id="추천-확장기능1"><a href="#추천-확장기능1" class="headerlink" title="추천 확장기능1"></a>추천 확장기능1</h2><h3 id="Color-Merge"><a href="#Color-Merge" class="headerlink" title="Color Merge"></a>Color Merge</h3><p><img src="https://c3.staticflickr.com/8/7334/27880636290_d787bd8749_z.jpg" alt="Brackets"></p>
+<p>확인하고자 하는 <mark>CSS파일을 열고 플러그인을 활성화 시키면 페이지에서 사용되고 있는 컬러들을 쭈~욱 뽑아서 컬러팔레트로 보여 줍니다.</mark> 작업을 하다보면 사이트나 이미지에서 컬러픽커로 색을 가져다 사용하기도 하는데 값이 조금씩 달라지는 경우가 있습니다. 결국 색상이 늘어나는 이유중에 하나이기도 하죠.</p>
+<p>해당플러그인을 사용할경우 CSS에서 사용되고 있는 색상들을 시각적으로 확인할 수 있어서 그동안 무의미하게 들어가 있던 색상을 정리 할 수 있었습니다. 또한 작업자 마다 다르기도 하지만 같은 컬러값을 대문자, 소문자(#FFF, #fff)로 사용하기도 하는데 이런 경우도 개별로 카운트하고 있어서 한쪽으로 통일 시킬 수 있습니다. <mark>아쉽게도 RGB값으로 사용된 컬러는 리스트에서 확인할 수 없습니다.</mark></p>
+<p>욕심이지만 RGB, RGBA에서 그라데이션까지 파악할 수 있다면 감히 신의 플러그인이라고 할 수 있지 않을까 생각해 봅니다.</p>
+<h3 id="Document-Outline"><a href="#Document-Outline" class="headerlink" title="Document Outline"></a>Document Outline</h3><p><img src="https://c2.staticflickr.com/8/7492/28083604881_91466ed12d_z.jpg" alt="Brackets"></p>
+<p>문서의 아웃라인을 확인할 수 있게 해줍니다. Chrome등의 브라우저에서 플러그인으로 Heading을 기준으로 하는 아웃라인을 확인하던 기능인데 에디터상에서 확인할 수 있어서 나름 편리한 기능입니다.</p>
+<h3 id="Tabs-Custom-working"><a href="#Tabs-Custom-working" class="headerlink" title="Tabs - Custom working"></a>Tabs - Custom working</h3><p><img src="https://c4.staticflickr.com/8/7650/27547759403_1bd5982642_z.jpg" alt="Brackets"></p>
+<p>ctr + pgUp, pgDown으로 Tab간을 이동할 수 있게끔 도와주며 각 파일 속성별로 아이콘을 생성시켜줍니다.</p>
+<h3 id="Indent-G"><a href="#Indent-G" class="headerlink" title="Indent G"></a>Indent G</h3><p><img src="https://c1.staticflickr.com/8/7485/28057938192_0f60502f16_z.jpg" alt="Brackets"></p>
+<p>기본으로는 지원되지 않는 기능으로 알고 있는데, 문서구조를 파악하기 쉽게끔 시각적으로 인덴트 구조를 표시해줍니다.</p>
+<h3 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h3><p><img src="https://c5.staticflickr.com/8/7523/28057938412_8d5204d2f8_z.jpg" alt="Brackets"></p>
+<p>코딩작업시 필요한 Todo를 보여줍니다. 기본셋팅으로 todo, note, fixme, feture가 적용되어 있는데 설정에서 새로 추가시킬 수 도 있습니다.</p>
+<h3 id="Emmet"><a href="#Emmet" class="headerlink" title="Emmet"></a>Emmet</h3><p><img src="https://c5.staticflickr.com/8/7352/28129207916_daa5c9d48c_z.jpg" alt="Brackets"></p>
+<p>젠코딩으로 유명한 emmet. 편하긴 하지만 많이 사용하지는 않아서 기능상 몰랐던 부분도 있는데 Brackets에 사용된 emmet에는 나름 편리한 기능이 탑재되어 있습니다. 숫자를 정수단위, 소수점 단위로 올리거나 내릴 수 있다니… 많이 사용되진 않지만 가려운곳을 긁어주는 기능등이 있습니다.</p>
+<p>Sublime에서는 짧은소스를 적은 후에 단축키로 랜더링(?)을 시켜주는 방식인데 해당 플러그인은 입력창에 입력시 실시간으로 보여주는점이 다른것 같습니다.</p>
+<h2 id="추천-확장기능2"><a href="#추천-확장기능2" class="headerlink" title="추천 확장기능2"></a>추천 확장기능2</h2><h3 id="Interactive-Linter"><a href="#Interactive-Linter" class="headerlink" title="Interactive Linter"></a>Interactive Linter</h3><p><mark>각종오류를 체크해줌으로 생각지 말고 필수 설치 항목이라 생각됩니다!!</mark></p>
+<p>coffeescript, csslint, htmlhint, eslint, jscs, jshint, jslint, jsx, jsonlint를 포함하고 있기 때문에 작업시 오류가 나거나 확인이 필요한 부분을 확인이 가능합니다.</p>
+<h3 id="SASSHint"><a href="#SASSHint" class="headerlink" title="SASSHint"></a>SASSHint</h3><p>미리 지정해 둔 값들을 불러들이기에 편합니다.<br>SASS 파일 작성시 ‘$’를 붙이면 지정되어 있는 값들을 보여주기 때문에 작업이 수월합니다.</p>
+<h3 id="W3CValidation"><a href="#W3CValidation" class="headerlink" title="W3CValidation"></a>W3CValidation</h3><p>w3c의 문법을 체크하여 에러창 에서 확인이 필요한 부분을 지적 해줍니다.</p>
+<h2 id="기타-확장기능"><a href="#기타-확장기능" class="headerlink" title="기타 확장기능"></a>기타 확장기능</h2><p>사용자에 따라서 필요하기도 하고 필요 없을 것 같은 기능들입니다. 그래도 설치 해두면 가끔씩 사용할 만한 것들을 정리하였습니다.</p>
+<h3 id="Brackets-Outline-List"><a href="#Brackets-Outline-List" class="headerlink" title="Brackets Outline List"></a>Brackets Outline List</h3><p><img src="https://c4.staticflickr.com/8/7352/28162153955_2974f1478d_z.jpg" alt="Brackets"></p>
+<p>Document Outline과 마찬가지로 문서의 아웃라인을 확인할 수 있게 해줍니다만 다른점은 HTML, CSS문서를 해석해서 쭈~욱 보여준다는 점입니다. Class나 Id를 사용할 경우 태그 옆에 보여줌으로 파악하기가 편할 수도(?) 있을 것 같습니다.</p>
+<h3 id="Brackets-Git"><a href="#Brackets-Git" class="headerlink" title="Brackets Git"></a>Brackets Git</h3><p><img src="https://c5.staticflickr.com/8/7577/28058617652_12f4a12860_z.jpg" alt="Brackets"></p>
+<p>에디터내에서 Git을 사용할 수 있게 도와줍니다.</p>
+<h3 id="Brackets-Snippets-by-edc"><a href="#Brackets-Snippets-by-edc" class="headerlink" title="Brackets Snippets (by edc)"></a>Brackets Snippets (by edc)</h3><p><img src="https://c1.staticflickr.com/8/7543/27546820504_39395d6585_z.jpg" alt="Brackets"></p>
+<p>이미 저장되어 있는 스니펫만으로도 편리하다고 생각되지만, 설정도 변경가능한 만큼 개인취향에 맞게 수정해가는것도 나쁘진 않을 것 같습니다.</p>
+<h3 id="QuickForm-Tool"><a href="#QuickForm-Tool" class="headerlink" title="QuickForm Tool"></a>QuickForm Tool</h3><p><img src="https://c3.staticflickr.com/8/7624/28128947266_cd341d6a7a_z.jpg" alt="Brackets"></p>
+<p>form과 관련된 요소들을 타이핑없이 원클릭으로 요소 추가를 할 수 있게끔 도와줍니다.</p>
+<h3 id="Lorem-Pixel"><a href="#Lorem-Pixel" class="headerlink" title="Lorem Pixel"></a>Lorem Pixel</h3><p><img src="https://c4.staticflickr.com/8/7518/28085151771_66cce7c78d_z.jpg" alt="Brackets"></p>
+<p>Placeholder Image를 첨부시켜줍니다. 데모페이지를 작성하거나 샘플용 이미지를 작성할때 사용하기 편할 것 같습니다. 이미지를 웹상에서 불러오는 만큼 랜더링에는 시간이 걸리는 담점이 있다고 생각됩니다.</p>
+<h3 id="Lorem-Ipsum"><a href="#Lorem-Ipsum" class="headerlink" title="Lorem Ipsum"></a>Lorem Ipsum</h3><p><img src="https://c3.staticflickr.com/8/7433/28059430322_d4efb4b5dd_z.jpg" alt="Brackets"></p>
+<p>영문이지만… 무의미한 데모텍스트를 작성하기 쉽게 도와줍니다.<br>lorem_p3, lorem_html_p3, lorem_s, lorem_link 등을 타이핑후 tab을 클릭하면 랜덤텍스트가 생성됩니다.<br>한글용은 발견하지 못했네요…</p>
+<h3 id="Markdown-Preview"><a href="#Markdown-Preview" class="headerlink" title="Markdown Preview"></a>Markdown Preview</h3><p><img src="https://c6.staticflickr.com/8/7568/28086320301_7beecbaa2b_z.jpg" alt="Brackets"></p>
+<p>Markdown형식으로 문서작성을 한다면, 설치해두면 편할듯한 플러그인. 당연한 이야기지만, 파일의 확장자는 md여야 합니다.</p>
+<h3 id="CSS-Comb"><a href="#CSS-Comb" class="headerlink" title="CSS Comb"></a>CSS Comb</h3><p>Sublime Text에서도 도움을 받고 있는 CSS를 깔끔하게 빚질해주는 플러그인으로 소스를 정렬에 민감한 분들에게 추천합니다.</p>
+<h3 id="Beauty"><a href="#Beauty" class="headerlink" title="Beauty"></a>Beauty</h3><p>아름답게(?) 문서를 정렬해줍니다. ‘,’와 ‘{}’를 기준으로 정렬, 줄바꿈 및 자동 인덴트를 적용해주는것 같습니다. 당연한거지만 Sass등으로 컴파일된 CSS에 사용하는건 적합하지 않으며 개인적으로는 HTML에서 사용빈도가 높을것 같습니다.</p>
+<h3 id="Autoprefixer"><a href="#Autoprefixer" class="headerlink" title="Autoprefixer"></a>Autoprefixer</h3><p>Css에서 -moz-, -webkit-, -o-등의 폴리필을 첨부해주는데 codekit, glup, grunt등 컴파일을 도와주는 툴을 사용하지 않고 순수하게 하드코딩을 할 경우 도움이 될것 같습니다. 전 codekit을 사용중인 관계로 패스.</p>
+<h2 id="TOP-100-extensions"><a href="#TOP-100-extensions" class="headerlink" title="TOP - 100 extensions"></a>TOP - 100 extensions</h2><p>Brackets의 TOP 100인 확장기능을 모아둔 곳입니다.<br>자신에게 필요한 기능은 없는지 확인해보세요~</p>
+<p><a href="http://brackets.dnbard.com/extensions" target="_blank" rel="noopener">http://brackets.dnbard.com/extensions</a></p>
+
+  </div>
+</article>
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#확장기능-인스톨"><span class="toc-number">1.</span> <span class="toc-text">확장기능 인스톨</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#추천-확장기능1"><span class="toc-number">2.</span> <span class="toc-text">추천 확장기능1</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Color-Merge"><span class="toc-number">2.1.</span> <span class="toc-text">Color Merge</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Document-Outline"><span class="toc-number">2.2.</span> <span class="toc-text">Document Outline</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tabs-Custom-working"><span class="toc-number">2.3.</span> <span class="toc-text">Tabs - Custom working</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Indent-G"><span class="toc-number">2.4.</span> <span class="toc-text">Indent G</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Todo"><span class="toc-number">2.5.</span> <span class="toc-text">Todo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Emmet"><span class="toc-number">2.6.</span> <span class="toc-text">Emmet</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#추천-확장기능2"><span class="toc-number">3.</span> <span class="toc-text">추천 확장기능2</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Interactive-Linter"><span class="toc-number">3.1.</span> <span class="toc-text">Interactive Linter</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SASSHint"><span class="toc-number">3.2.</span> <span class="toc-text">SASSHint</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#W3CValidation"><span class="toc-number">3.3.</span> <span class="toc-text">W3CValidation</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#기타-확장기능"><span class="toc-number">4.</span> <span class="toc-text">기타 확장기능</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Brackets-Outline-List"><span class="toc-number">4.1.</span> <span class="toc-text">Brackets Outline List</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Brackets-Git"><span class="toc-number">4.2.</span> <span class="toc-text">Brackets Git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Brackets-Snippets-by-edc"><span class="toc-number">4.3.</span> <span class="toc-text">Brackets Snippets (by edc)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#QuickForm-Tool"><span class="toc-number">4.4.</span> <span class="toc-text">QuickForm Tool</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lorem-Pixel"><span class="toc-number">4.5.</span> <span class="toc-text">Lorem Pixel</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lorem-Ipsum"><span class="toc-number">4.6.</span> <span class="toc-text">Lorem Ipsum</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Markdown-Preview"><span class="toc-number">4.7.</span> <span class="toc-text">Markdown Preview</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CSS-Comb"><span class="toc-number">4.8.</span> <span class="toc-text">CSS Comb</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Beauty"><span class="toc-number">4.9.</span> <span class="toc-text">Beauty</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Autoprefixer"><span class="toc-number">4.10.</span> <span class="toc-text">Autoprefixer</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#TOP-100-extensions"><span class="toc-number">5.</span> <span class="toc-text">TOP - 100 extensions</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://sapjil.github.io/brackets-extension/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://sapjil.github.io/brackets-extension/&text=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://sapjil.github.io/brackets-extension/&title=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://sapjil.github.io/brackets-extension/&is_video=false&description=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=코딩의 작업효율을 올려주는 Brackets 확장기능&body=Check out this article: https://sapjil.github.io/brackets-extension/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://sapjil.github.io/brackets-extension/&title=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://sapjil.github.io/brackets-extension/&title=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://sapjil.github.io/brackets-extension/&title=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://sapjil.github.io/brackets-extension/&title=코딩의 작업효율을 올려주는 Brackets 확장기능"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://sapjil.github.io/brackets-extension/&name=코딩의 작업효율을 올려주는 Brackets 확장기능&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 Nam Hyubsoo
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'sapjil';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+
+</body>
+</html>
