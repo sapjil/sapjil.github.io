@@ -31,13 +31,6 @@
     </url>
 
     <url>
-        <loc>https://sapjil.com/tags/adobe/</loc>
-        <lastmod>2019-03-13T11:37:29.229Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://sapjil.com/tags/ai/</loc>
         <lastmod>2019-03-13T11:37:29.229Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -109,6 +102,13 @@
 
     <url>
         <loc>https://sapjil.com/tags/dpi/</loc>
+        <lastmod>2019-03-13T11:37:29.229Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/adobe/</loc>
         <lastmod>2019-03-13T11:37:29.229Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -248,83 +248,6 @@
     </url>
 
     <url>
-        <loc>https://sapjil.com/tags/priorities/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/calculation/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EA%B0%80%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%ED%81%B4%EB%9E%98%EC%8A%A4/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%ED%83%9C%EA%B7%B8/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EC%84%A0%ED%83%9D%EC%9E%90/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EC%A0%90%EC%88%98/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EA%B3%84%EC%82%B0%EB%B2%95/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/important/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/important/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://sapjil.com/tags/anicollection/</loc>
         <lastmod>2019-03-13T11:37:29.230Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -416,6 +339,90 @@
     </url>
 
     <url>
+        <loc>https://sapjil.com/tags/priorities/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/calculation/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EA%B0%80%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%ED%81%B4%EB%9E%98%EC%8A%A4/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%ED%83%9C%EA%B7%B8/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EC%84%A0%ED%83%9D%EC%9E%90/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EC%A0%90%EC%88%98/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EA%B3%84%EC%82%B0%EB%B2%95/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/important/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/important/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/argon/</loc>
+        <lastmod>2019-03-13T11:37:29.231Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://sapjil.com/tags/eclipse/</loc>
         <lastmod>2019-03-13T11:37:29.231Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -459,13 +466,6 @@
 
     <url>
         <loc>https://sapjil.com/tags/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4/</loc>
-        <lastmod>2019-03-13T11:37:29.231Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/argon/</loc>
         <lastmod>2019-03-13T11:37:29.231Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -738,6 +738,48 @@
     </url>
 
     <url>
+        <loc>https://sapjil.com/tags/%EC%9D%BC%EB%B3%B8/</loc>
+        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EC%A1%B0%EC%88%98%EC%9D%B8%EB%AC%BC%EA%B8%B0%ED%99%94/</loc>
+        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%E9%B3%A5%E7%8D%A3%E4%BA%BA%E7%89%A9%E6%88%AF%E7%94%BB/</loc>
+        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EB%8B%A4%EC%A1%B0%EC%88%98%EA%B8%B0%ED%99%94/</loc>
+        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%E3%83%80%E9%B3%A5%E7%8D%A3%E3%82%AE%E7%94%BB/</loc>
+        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/DACHOJU-GIGA/</loc>
+        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://sapjil.com/tags/girlysozai/</loc>
         <lastmod>2019-03-13T11:37:29.233Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -788,48 +830,6 @@
 
     <url>
         <loc>https://sapjil.com/tags/%EC%97%AC%EC%9E%90%EC%97%AC%EC%9E%90/</loc>
-        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EC%9D%BC%EB%B3%B8/</loc>
-        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EC%A1%B0%EC%88%98%EC%9D%B8%EB%AC%BC%EA%B8%B0%ED%99%94/</loc>
-        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%E9%B3%A5%E7%8D%A3%E4%BA%BA%E7%89%A9%E6%88%AF%E7%94%BB/</loc>
-        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EB%8B%A4%EC%A1%B0%EC%88%98%EA%B8%B0%ED%99%94/</loc>
-        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%E3%83%80%E9%B3%A5%E7%8D%A3%E3%82%AE%E7%94%BB/</loc>
-        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/DACHOJU-GIGA/</loc>
         <lastmod>2019-03-13T11:37:29.233Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -892,6 +892,13 @@
     </url>
 
     <url>
+        <loc>https://sapjil.com/tags/Glamor/</loc>
+        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://sapjil.com/tags/effects/</loc>
         <lastmod>2019-03-13T11:37:29.234Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -948,27 +955,6 @@
     </url>
 
     <url>
-        <loc>https://sapjil.com/tags/%EB%AA%A9%EC%97%85/</loc>
-        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/psd/</loc>
-        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/Glamor/</loc>
-        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://sapjil.com/tags/mikarika/</loc>
         <lastmod>2019-03-13T11:37:29.234Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1011,6 +997,20 @@
     </url>
 
     <url>
+        <loc>https://sapjil.com/tags/%EB%AA%A9%EC%97%85/</loc>
+        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/psd/</loc>
+        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://sapjil.com/tags/photoshop/</loc>
         <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1033,27 +1033,6 @@
 
     <url>
         <loc>https://sapjil.com/tags/perfograma/</loc>
-        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/extension/</loc>
-        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/guide/</loc>
-        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/guideguide/</loc>
         <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1137,6 +1116,27 @@
     </url>
 
     <url>
+        <loc>https://sapjil.com/tags/extension/</loc>
+        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/guide/</loc>
+        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/guideguide/</loc>
+        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://sapjil.com/tags/css3/</loc>
         <lastmod>2019-03-13T11:37:29.236Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1159,27 +1159,6 @@
 
     <url>
         <loc>https://sapjil.com/tags/3d/</loc>
-        <lastmod>2019-03-13T11:37:29.236Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/polya/</loc>
-        <lastmod>2019-03-13T11:37:29.236Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/poligon/</loc>
-        <lastmod>2019-03-13T11:37:29.236Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%ED%8F%B4%EB%A6%AC%EA%B3%A4/</loc>
         <lastmod>2019-03-13T11:37:29.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1270,6 +1249,27 @@
     </url>
 
     <url>
+        <loc>https://sapjil.com/tags/polya/</loc>
+        <lastmod>2019-03-13T11:37:29.236Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/poligon/</loc>
+        <lastmod>2019-03-13T11:37:29.236Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%ED%8F%B4%EB%A6%AC%EA%B3%A4/</loc>
+        <lastmod>2019-03-13T11:37:29.236Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://sapjil.com/tags/normalize/</loc>
         <lastmod>2019-03-13T11:37:29.236Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1312,28 +1312,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.com/tags/%EC%82%BD%EC%A7%88/</loc>
-        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://sapjil.com/tags/freebie/</loc>
-        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/free/</loc>
-        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%ED%8F%B0%ED%8A%B8/</loc>
         <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1347,6 +1326,13 @@
     </url>
 
     <url>
+        <loc>https://sapjil.com/tags/free/</loc>
+        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://sapjil.com/tags/%EB%AC%B4%EB%A3%8C/</loc>
         <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1354,49 +1340,14 @@
     </url>
 
     <url>
-        <loc>https://sapjil.com/tags/board/</loc>
+        <loc>https://sapjil.com/tags/%ED%8F%B0%ED%8A%B8/</loc>
         <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://sapjil.com/tags/chalk/</loc>
-        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/sans-serif/</loc>
-        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/schist/</loc>
-        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EA%B3%A0%EB%94%95%EC%B2%B4/</loc>
-        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EB%B6%84%ED%95%84/</loc>
-        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EC%B9%A0%ED%8C%90/</loc>
+        <loc>https://sapjil.com/tags/%EC%82%BD%EC%A7%88/</loc>
         <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1446,6 +1397,55 @@
 
     <url>
         <loc>https://sapjil.com/tags/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%8D%94/</loc>
+        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/board/</loc>
+        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/chalk/</loc>
+        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/sans-serif/</loc>
+        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/schist/</loc>
+        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EA%B3%A0%EB%94%95%EC%B2%B4/</loc>
+        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EB%B6%84%ED%95%84/</loc>
+        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EC%B9%A0%ED%8C%90/</loc>
         <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1914,35 +1914,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.com/tags/build/</loc>
-        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/theme/</loc>
-        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/underscores/</loc>
-        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/wordpress/</loc>
-        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/s/</loc>
+        <loc>https://sapjil.com/tags/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%B5%9C%EC%A0%81%ED%99%94/</loc>
         <lastmod>2019-03-13T11:37:29.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1956,35 +1928,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.com/tags/%ED%85%8C%EB%A7%88/</loc>
-        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EC%83%9D%EC%84%B1/</loc>
-        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EB%B9%8C%EB%8D%94/</loc>
-        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EB%94%94%EC%9E%90%EC%9D%B8/</loc>
-        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.com/tags/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%B5%9C%EC%A0%81%ED%99%94/</loc>
+        <loc>https://sapjil.com/tags/wordpress/</loc>
         <lastmod>2019-03-13T11:37:29.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -2013,6 +1957,13 @@
 
     <url>
         <loc>https://sapjil.com/tags/%ED%85%8C%EB%A7%88%EC%A0%9C%EC%9E%91/</loc>
+        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%ED%85%8C%EB%A7%88/</loc>
         <lastmod>2019-03-13T11:37:29.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -2069,6 +2020,55 @@
 
     <url>
         <loc>https://sapjil.com/tags/%EC%95%84%ED%82%A4%ED%85%8D%ED%8A%B8/</loc>
+        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/build/</loc>
+        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/theme/</loc>
+        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/underscores/</loc>
+        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/s/</loc>
+        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EC%83%9D%EC%84%B1/</loc>
+        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EB%B9%8C%EB%8D%94/</loc>
+        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.com/tags/%EB%94%94%EC%9E%90%EC%9D%B8/</loc>
         <lastmod>2019-03-13T11:37:29.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
