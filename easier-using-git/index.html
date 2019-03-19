@@ -21,14 +21,14 @@
 <meta property="og:site_name" content="SAPJIL">
 <meta property="og:description" content="업무에서 백업용으로만 사용하던 git. 혼자서 작업할 경우 필요하다고 생각되는 생각보다 쉬운 사용법(?)을 정리해봤습니다.">
 <meta property="og:locale" content="ko">
-<meta property="og:image" content="https://c7.staticflickr.com/9/8453/29423992182_8bd228d4af_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8453/29423992182_8bd228d4af_c.jpg">
 <meta property="og:image" content="https://c7.staticflickr.com/9/8885/29529917366_658105fae4_b.jpg" ">
 <meta property="og:image" content="https://c5.staticflickr.com/9/8219/28938609284_12fcb02deb_b.jpg" ">
-<meta property="og:updated_time" content="2019-03-13T11:37:29.231Z">
+<meta property="og:updated_time" content="2019-03-19T14:31:13.077Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="생각보다 쉬운 Git 사용해보기">
 <meta name="twitter:description" content="업무에서 백업용으로만 사용하던 git. 혼자서 작업할 경우 필요하다고 생각되는 생각보다 쉬운 사용법(?)을 정리해봤습니다.">
-<meta name="twitter:image" content="https://c7.staticflickr.com/9/8453/29423992182_8bd228d4af_z.jpg">
+<meta name="twitter:image" content="https://farm9.staticflickr.com/8453/29423992182_8bd228d4af_c.jpg">
 <meta name="twitter:creator" content="@sapjilnet">
 <meta property="fb:admins" content="1017282400">
     
@@ -60,6 +60,10 @@
     
       <link rel="stylesheet" href="/css/rtl.css">
     
+    <!-- Amp generator -->
+    
+      <link rel="amphtml" href="https://sapjil.net/easier-using-git//amp/index.html">
+    
     <!-- rss -->
     
     
@@ -73,6 +77,8 @@
       });
       woopra.track();
     </script>
+    <!-- Sentry -->
+    <script src="https://browser.sentry-cdn.com/4.6.4/bundle.min.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="max-width mx-auto px3 ltr">
@@ -165,7 +171,7 @@
       
         <time datetime="2016-09-09T23:26:00.000Z" itemprop="datePublished">2016-09-10</time>
         
-        (Updated: <time datetime="2019-03-13T11:37:29.231Z" itemprop="dateModified">2019-03-13</time>)
+        (Updated: <time datetime="2019-03-19T14:31:13.077Z" itemprop="dateModified">2019-03-19</time>)
         
       
     </div>
@@ -191,7 +197,7 @@
 
   <div class="content" itemprop="articleBody">
     <p>이번에는 “git”에 대해서 전문적인 부분이 아닌, 삽질을 조금이나마 줄일 수 있는 기본적인 <mark>백업용도에 대한 사용법</mark>에 대하여 다루려 합니다. 이전부터 “git”은 사용해 왔었습니다만, 백업용으로만 사용해 오고 있었는데… 슬슬 프로젝트에도 제대로(?) 도입을 시켜보기 위해 이런저런 사용법을 조금씩 익히고 있는 중입니다. git, 생각보다 쉬워요. 네. 저도 사용하고 있는걸요.</p>
-<p><img src="https://c7.staticflickr.com/9/8453/29423992182_8bd228d4af_z.jpg" alt="sapjil-git"></p>
+<p><img src="https://farm9.staticflickr.com/8453/29423992182_8bd228d4af_c.jpg" alt="sapjil-git"></p>
 <blockquote>
 <p>“git”을 이미 사용중이신 분은 읽어 보실 필요 없다고 생각되며, 전혀 사용해 본적이 없는데 어떻게 사용해 보면 좋을지 모르겠다는 저보다 초보분들을 생각하면서 정리해봤습니다. 이 포스트를 읽는데는 약 3분 정도의 시간을 필요로 합니다.</p>
 </blockquote>

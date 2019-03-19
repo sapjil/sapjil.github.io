@@ -14,19 +14,19 @@
     <script src="//kitchen.juicer.cc/?color=rSeJtMNjAKQ=" async></script>
 
     <meta name="description" content="사이트 구축시 사용되는 CSS중에서 가장 많이 알려져 있고, 알려져 있는 만큼 많이 사용되고 있는 것 중에서 비슷하면서도 다른 성격을 가지고 있는 reset.css와 normalize.css에 대해서 살짝 알아보았습니다.">
-<meta name="keywords" content="css,coding,css3,normalize,reset,markup,초기화,마크업">
+<meta name="keywords" content="css,css3,coding,normalize,reset,markup,초기화,마크업">
 <meta property="og:type" content="article">
 <meta property="og:title" content="reset.css 와 Normalize.css">
 <meta property="og:url" content="https://sapjil.net/resetcss-normalizecss/index.html">
 <meta property="og:site_name" content="SAPJIL">
 <meta property="og:description" content="사이트 구축시 사용되는 CSS중에서 가장 많이 알려져 있고, 알려져 있는 만큼 많이 사용되고 있는 것 중에서 비슷하면서도 다른 성격을 가지고 있는 reset.css와 normalize.css에 대해서 살짝 알아보았습니다.">
 <meta property="og:locale" content="ko">
-<meta property="og:image" content="https://c1.staticflickr.com/1/592/31726689720_9303aef7ca_z.jpg">
-<meta property="og:updated_time" content="2019-03-13T11:37:29.236Z">
+<meta property="og:image" content="https://farm1.staticflickr.com/592/31726689720_9303aef7ca_c.jpg">
+<meta property="og:updated_time" content="2019-03-19T14:35:03.847Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="reset.css 와 Normalize.css">
 <meta name="twitter:description" content="사이트 구축시 사용되는 CSS중에서 가장 많이 알려져 있고, 알려져 있는 만큼 많이 사용되고 있는 것 중에서 비슷하면서도 다른 성격을 가지고 있는 reset.css와 normalize.css에 대해서 살짝 알아보았습니다.">
-<meta name="twitter:image" content="https://c1.staticflickr.com/1/592/31726689720_9303aef7ca_z.jpg">
+<meta name="twitter:image" content="https://farm1.staticflickr.com/592/31726689720_9303aef7ca_c.jpg">
 <meta name="twitter:creator" content="@sapjilnet">
 <meta property="fb:admins" content="1017282400">
     
@@ -58,6 +58,10 @@
     
       <link rel="stylesheet" href="/css/rtl.css">
     
+    <!-- Amp generator -->
+    
+      <link rel="amphtml" href="https://sapjil.net/resetcss-normalizecss//amp/index.html">
+    
     <!-- rss -->
     
     
@@ -71,6 +75,8 @@
       });
       woopra.track();
     </script>
+    <!-- Sentry -->
+    <script src="https://browser.sentry-cdn.com/4.6.4/bundle.min.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="max-width mx-auto px3 ltr">
@@ -163,7 +169,7 @@
       
         <time datetime="2017-01-06T02:30:00.000Z" itemprop="datePublished">2017-01-06</time>
         
-        (Updated: <time datetime="2019-03-13T11:37:29.236Z" itemprop="dateModified">2019-03-13</time>)
+        (Updated: <time datetime="2019-03-19T14:35:03.847Z" itemprop="dateModified">2019-03-19</time>)
         
       
     </div>
@@ -189,7 +195,7 @@
 
   <div class="content" itemprop="articleBody">
     <p>가끔 Reset CSS와 Normalize를 동일시하시는 분들이 있는것 같습니다만, 확실한 차이가 있는 만큼 모르시던 분들은 이번 기회에 차이점을 이해하시면 어떨까 합니다. Normalize.css는 Reset CSS와 비슷한 기능을 하지만 조금 다른 부분이 있습니다.<mark> Reset CSS가 말 그대로 무조건 초기화를 시켜버리는것에 집중하고 있는것에 반해 Normalize의 경우는 초기화는 시키지만 어느정도 스타일이 가미되어 있다</mark>고 이해하시면 좋을듯 합니다.</p>
-<p><img src="https://c1.staticflickr.com/1/592/31726689720_9303aef7ca_z.jpg" alt="sapjil-resetcss-normalizecss"></p>
+<p><img src="https://farm1.staticflickr.com/592/31726689720_9303aef7ca_c.jpg" alt="sapjil-resetcss-normalizecss"></p>
 <h2 id="사이트제작시-기본적으로-알아두면-좋을-CSS"><a href="#사이트제작시-기본적으로-알아두면-좋을-CSS" class="headerlink" title="사이트제작시 기본적으로 알아두면 좋을 CSS"></a>사이트제작시 기본적으로 알아두면 좋을 CSS</h2><p>어느사이엔가 웹에서 <strong>CSS(cascadind style sheet)</strong>는 기술의 발전에 따라 여러 유파가 생기고 없어지고 살아남기를 반복하는 생태계가 형성되어, 초기에는 없던 것들이 기술의 발달과 함께 여러 방향으로 발전을 하였습니다. 어느 분야나 마찬가지 겠지만, 깊이있게 들어가고 시간이 경과 할수록 나름대로의 생태계가 형성되는건 어쩔 수 없는 자연현상인것 같습니다. 이제는 거의 모든 마크업 엔지니어들이 작업에 도입하고 있다고 보여지는 reset.css와 normalize.css도 이런 흐름속에서 나온 산물이라고 생각되며, 초기 작업시간을 단축시켜준다는 효율성이 입증 되면서 공유되어 알려지기 시작했다고 기억하고 있습니다…</p>
 <h3 id="Reset-css"><a href="#Reset-css" class="headerlink" title="Reset.css"></a>Reset.css</h3><p><strong>Reset CSS</strong>란 설명하자면 <mark>브라우저간의 차이를 최대한 없에서, 스타일이 0인 상태에서 디자인을 만들어 나가기</mark> 위해 생겨난것입니다.</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">* &#123;</span><br><span class="line"><span class="attribute">marin</span>: <span class="number">0</span>;</span><br><span class="line"><span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line"><span class="attribute">border</span>: none;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>

@@ -21,13 +21,13 @@
 <meta property="og:site_name" content="SAPJIL">
 <meta property="og:description" content="CSS작업시 사용된 각종 정보를 분석하여 보여줍니다. 제공되는 Class, ID, Font Size등의 여러 통계정보를 파악하여 좀더 좋은 CSS 파일을 작성할 수 있게 도와주는 툴인 StyleStats에 대한 소개입니다.">
 <meta property="og:locale" content="ko">
-<meta property="og:image" content="https://c4.staticflickr.com/9/8164/28416524243_2dc70dfc67_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8164/28416524243_2dc70dfc67_c.jpg">
 <meta property="og:image" content="https://c1.staticflickr.com/9/8502/28911552472_c12989bb42_z.jpg">
-<meta property="og:updated_time" content="2019-03-13T11:37:29.238Z">
+<meta property="og:updated_time" content="2019-03-19T14:32:09.166Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="좀더 좋은 CSS를 만들기 위하여 StyleStats로 CSS 파일 분석하기">
 <meta name="twitter:description" content="CSS작업시 사용된 각종 정보를 분석하여 보여줍니다. 제공되는 Class, ID, Font Size등의 여러 통계정보를 파악하여 좀더 좋은 CSS 파일을 작성할 수 있게 도와주는 툴인 StyleStats에 대한 소개입니다.">
-<meta name="twitter:image" content="https://c4.staticflickr.com/9/8164/28416524243_2dc70dfc67_z.jpg">
+<meta name="twitter:image" content="https://farm9.staticflickr.com/8164/28416524243_2dc70dfc67_c.jpg">
 <meta name="twitter:creator" content="@sapjilnet">
 <meta property="fb:admins" content="1017282400">
     
@@ -59,6 +59,10 @@
     
       <link rel="stylesheet" href="/css/rtl.css">
     
+    <!-- Amp generator -->
+    
+      <link rel="amphtml" href="https://sapjil.net/stylestats//amp/index.html">
+    
     <!-- rss -->
     
     
@@ -72,6 +76,8 @@
       });
       woopra.track();
     </script>
+    <!-- Sentry -->
+    <script src="https://browser.sentry-cdn.com/4.6.4/bundle.min.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="max-width mx-auto px3 ltr">
@@ -164,7 +170,7 @@
       
         <time datetime="2016-08-17T01:06:00.000Z" itemprop="datePublished">2016-08-17</time>
         
-        (Updated: <time datetime="2019-03-13T11:37:29.238Z" itemprop="dateModified">2019-03-13</time>)
+        (Updated: <time datetime="2019-03-19T14:32:09.166Z" itemprop="dateModified">2019-03-19</time>)
         
       
     </div>
@@ -190,7 +196,7 @@
 
   <div class="content" itemprop="articleBody">
     <p>하나의 프로젝트를 진행하다보면 마크업 작업의 양이 많아지면서 덩달아 CSS의 크기도 커지기 쉽습니다. 그나마 혼자서 작업을 한다면 조금 수월할지도 모르겠지만, 팀작업이 되었을 경우 명확한게 정의된 코딩 컨벤션이 없다면 우훅죽순으로 늘어나는 클래스를 감당하기 어려운 상황이 발생하곤 합니다. 소개해 드리는 StyleStats을 통해 모든것이 해결되는 것은 아니지만 관리적인 측면에서 어느정도 효과를 볼 수 있을 것이라 생각됩니다.</p>
-<p><img src="https://c4.staticflickr.com/9/8164/28416524243_2dc70dfc67_z.jpg" alt="StyleStats" title="스크린샷"></p>
+<p><img src="https://farm9.staticflickr.com/8164/28416524243_2dc70dfc67_c.jpg" alt="StyleStats" title="스크린샷"></p>
 <h2 id="StyleStats"><a href="#StyleStats" class="headerlink" title="StyleStats?"></a>StyleStats?</h2><p><strong>StyleStats</strong> : <a href="https://github.com/t32k/stylestats" target="_blank" rel="noopener">(https://github.com/t32k/stylestats)</a><br>CSS에 사용된 각종 내용들의 정보를 분석하여 제공되는 피드백을 기준으로 <mark>좀더 좋은 CSS를 작성할 수 있게 도와주는 툴</mark>입니다.</p>
 <h3 id="인스톨"><a href="#인스톨" class="headerlink" title="인스톨"></a>인스톨</h3><p>인스톨에는 Node환경이 필요합니다.<br>터미널에서 아래 코드를 입력하여 설치를 진행해 주세요.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g stylestats</span><br></pre></td></tr></table></figure>
