@@ -80,7 +80,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/wordpress-underscores/</loc>
+        <loc>https://sapjil.net/wordpress-theme-seo-setting/</loc>
         <lastmod>2019-03-13T11:37:29.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -88,7 +88,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/wordpress-theme-seo-setting/</loc>
+        <loc>https://sapjil.net/wordpress-underscores/</loc>
         <lastmod>2019-03-13T11:37:29.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -112,6 +112,14 @@
     </url>
 
     <url>
+        <loc>https://sapjil.net/uifaces/</loc>
+        <lastmod>2019-03-13T11:37:29.238Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://sapjil.net/sublime-text-package/</loc>
         <lastmod>2019-03-13T11:37:29.238Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -120,8 +128,8 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/uifaces/</loc>
-        <lastmod>2019-03-13T11:37:29.238Z</lastmod>
+        <loc>https://sapjil.net/sapjil-start/</loc>
+        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -137,14 +145,6 @@
 
     <url>
         <loc>https://sapjil.net/slideoutjs/</loc>
-        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/sapjil-start/</loc>
         <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -176,14 +176,6 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/photoshop-copic-swatches/</loc>
-        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://sapjil.net/photoshop-guideguide/</loc>
         <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -192,8 +184,8 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/free-photoshop-text-effects/</loc>
-        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
+        <loc>https://sapjil.net/photoshop-copic-swatches/</loc>
+        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -201,6 +193,14 @@
 
     <url>
         <loc>https://sapjil.net/freebie-mockup/</loc>
+        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://sapjil.net/free-photoshop-text-effects/</loc>
         <lastmod>2019-03-13T11:37:29.234Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -272,7 +272,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/different-domain-css/</loc>
+        <loc>https://sapjil.net/css3-anicolle/</loc>
         <lastmod>2019-03-13T11:37:29.230Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -280,7 +280,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/css3-anicolle/</loc>
+        <loc>https://sapjil.net/different-domain-css/</loc>
         <lastmod>2019-03-13T11:37:29.230Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
