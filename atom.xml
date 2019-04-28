@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sapjil.net/"/>
-  <updated>2019-04-28T00:01:13.186Z</updated>
+  <updated>2019-04-28T03:47:43.591Z</updated>
   <id>https://sapjil.net/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <title>블로그를 이전하였습니다.</title>
     <link href="https://sapjil.net/blogmove/"/>
     <id>https://sapjil.net/blogmove/</id>
-    <published>2019-04-27T23:26:00.000Z</published>
-    <updated>2019-04-28T00:01:13.186Z</updated>
+    <published>2019-03-14T23:26:00.000Z</published>
+    <updated>2019-04-28T03:47:43.591Z</updated>
     
-    <content type="html"><![CDATA[<p>아직 익숙하지 않은 툴을 사용하다 보니 몇 가지 정보를 빼놓으면 공개되지 않을 것 같았는데 공개되어 있네요..</p><p>글 작성 중에 설정관련해서 이것저것 테스트해보면서 업데이트를 준비하고 있다가 신규 프로젝트에 들어오면서 중간에 잘못 올린 게 있다는 것을 제대로 잊고 있었습니다. 이런 실수를…</p><p>블로그를 이전했습니다.</p><p>그동안은 워드프레스를 익힌다는 명목으로 godo hosting을 사용하고 있었습니다만, 몇 년간 싼 가격이지만 유료로 사용하면서 워드프레스를 익혀보고 있었는데 최근 들어 부쩍 사용 빈도가 적다는 것을 늦게나마 자각하여 다른 플랫폼을 찾아보았습니다.</p><p>조건으로는 그나마 유입이 있는 페이지들의 URL에 영향이 없는 것이었습니다.</p><p>대안으로 찾은 것은 GitHub 와 hexo의 조합입니다.<br>사용해보니 참 편한 것 같아 당분간은 이 방식으로 운영을 할 계획에 있습니다.</p><p>어디까지나 핑계이긴 하지만, 글을 쓰다 지운 것이 한두 개가 아닙니다.<br>뭔가 다른 곳의 양질의 글들과 비교하다 보면 올리기가 너무 힘들더군요.<br>이러지 말아야지 하면서도 그게 참 어렵다는 생각이 들었습니다.</p><p>심기일전해야 할 것 같습니다.</p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://live.staticflickr.com/65535/33841218408_f756fa8110_c.jpg" alt="sorry"></p><p>아직 익숙하지 않은 툴을 사용하다 보니 몇 가지 정보를 빼놓은 상태에서 draft를 만들어두면 공개되지 않을 것 같았는데 어떤 설정이 잘못 된건지 공개되어 있네요..</p><p>아마도 hexo에 AMP를 적용시키는 과정에서 생긴 문제인 것 같습니다. 글 작성 중에 설정관련해서 이것저것 테스트해보면서 업데이트를 준비하고 있다가 신규 프로젝트에 들어오면서 중간에 잘못 올린 게 있다는 것을 제대로 잊고 있었습니다. 이런 실수를…</p><p>블로그를 이전했습니다.</p><p>그동안은 워드프레스를 익힌다는 명목으로 godo hosting을 사용하고 있었습니다.<br>몇 년간 싼 가격으로 사용하면서 워드프레스를 익혀보고 있었는데 최근 들어 부쩍 사용 빈도가 적다는 것을 늦게나마 자각하여 다른 플랫폼을 찾아보았습니다.</p><p>문제는 그나마 유입이 있는 페이지들의 URL에 영향이 없는 것이었습니다.<br>대안으로 찾은 것은 GitHub 와 hexo의 조합입니다.<br>사용해보니 참 편한 것 같아 당분간은 이 방식으로 운영할 계획에 있습니다.</p><p>어디까지나 핑계이긴 하지만, 글을 쓰다 지운 것이 한두 개가 아닙니다.<br>뭔가 다른 곳의 양질의 글들과 비교하다 보면 올리기가 너무 힘들더군요.<br>이러지 말아야지 하면서도 그게 참 어렵다는 생각이 들었습니다.</p><p>심기일전해야 할 것 같습니다.</p>]]></content>
     
     <summary type="html">
     
@@ -108,11 +108,11 @@
       <category term="freebie" scheme="https://sapjil.net/category/freebie/"/>
     
     
+      <category term="design" scheme="https://sapjil.net/tags/design/"/>
+    
       <category term="freebie" scheme="https://sapjil.net/tags/freebie/"/>
     
       <category term="free" scheme="https://sapjil.net/tags/free/"/>
-    
-      <category term="design" scheme="https://sapjil.net/tags/design/"/>
     
       <category term="무료" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C/"/>
     
@@ -156,15 +156,11 @@
       <category term="www" scheme="https://sapjil.net/category/www/"/>
     
     
-      <category term="제네레이터" scheme="https://sapjil.net/tags/%EC%A0%9C%EB%84%A4%EB%A0%88%EC%9D%B4%ED%84%B0/"/>
-    
-      <category term="생성기" scheme="https://sapjil.net/tags/%EC%83%9D%EC%84%B1%EA%B8%B0/"/>
-    
-      <category term="design" scheme="https://sapjil.net/tags/design/"/>
-    
       <category term="ai" scheme="https://sapjil.net/tags/ai/"/>
     
       <category term="color tool" scheme="https://sapjil.net/tags/color-tool/"/>
+    
+      <category term="design" scheme="https://sapjil.net/tags/design/"/>
     
       <category term="generator" scheme="https://sapjil.net/tags/generator/"/>
     
@@ -172,7 +168,11 @@
     
       <category term="배색" scheme="https://sapjil.net/tags/%EB%B0%B0%EC%83%89/"/>
     
+      <category term="생성기" scheme="https://sapjil.net/tags/%EC%83%9D%EC%84%B1%EA%B8%B0/"/>
+    
       <category term="인공지능" scheme="https://sapjil.net/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/"/>
+    
+      <category term="제네레이터" scheme="https://sapjil.net/tags/%EC%A0%9C%EB%84%A4%EB%A0%88%EC%9D%B4%ED%84%B0/"/>
     
   </entry>
   
@@ -194,6 +194,8 @@
       <category term="freebie" scheme="https://sapjil.net/category/freebie/"/>
     
     
+      <category term="design" scheme="https://sapjil.net/tags/design/"/>
+    
       <category term="sapjil" scheme="https://sapjil.net/tags/sapjil/"/>
     
       <category term="freebie" scheme="https://sapjil.net/tags/freebie/"/>
@@ -203,8 +205,6 @@
       <category term="font" scheme="https://sapjil.net/tags/font/"/>
     
       <category term="free" scheme="https://sapjil.net/tags/free/"/>
-    
-      <category term="design" scheme="https://sapjil.net/tags/design/"/>
     
       <category term="무료" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C/"/>
     
@@ -244,6 +244,8 @@
       <category term="freebie" scheme="https://sapjil.net/category/freebie/"/>
     
     
+      <category term="design" scheme="https://sapjil.net/tags/design/"/>
+    
       <category term="sapjil" scheme="https://sapjil.net/tags/sapjil/"/>
     
       <category term="삽질" scheme="https://sapjil.net/tags/%EC%82%BD%EC%A7%88/"/>
@@ -251,8 +253,6 @@
       <category term="freebie" scheme="https://sapjil.net/tags/freebie/"/>
     
       <category term="free" scheme="https://sapjil.net/tags/free/"/>
-    
-      <category term="design" scheme="https://sapjil.net/tags/design/"/>
     
       <category term="무료" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C/"/>
     
@@ -262,11 +262,11 @@
     
       <category term="일러스트" scheme="https://sapjil.net/tags/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8/"/>
     
+      <category term="무료일러스트" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8/"/>
+    
       <category term="girlysozai" scheme="https://sapjil.net/tags/girlysozai/"/>
     
       <category term="귀여운" scheme="https://sapjil.net/tags/%EA%B7%80%EC%97%AC%EC%9A%B4/"/>
-    
-      <category term="무료일러스트" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8/"/>
     
       <category term="부드러운" scheme="https://sapjil.net/tags/%EB%B6%80%EB%93%9C%EB%9F%AC%EC%9A%B4/"/>
     
@@ -298,6 +298,8 @@
       <category term="freebie" scheme="https://sapjil.net/category/freebie/"/>
     
     
+      <category term="design" scheme="https://sapjil.net/tags/design/"/>
+    
       <category term="sapjil" scheme="https://sapjil.net/tags/sapjil/"/>
     
       <category term="삽질" scheme="https://sapjil.net/tags/%EC%82%BD%EC%A7%88/"/>
@@ -305,8 +307,6 @@
       <category term="freebie" scheme="https://sapjil.net/tags/freebie/"/>
     
       <category term="free" scheme="https://sapjil.net/tags/free/"/>
-    
-      <category term="design" scheme="https://sapjil.net/tags/design/"/>
     
       <category term="무료" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C/"/>
     
@@ -316,13 +316,13 @@
     
       <category term="일러스트" scheme="https://sapjil.net/tags/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8/"/>
     
-      <category term="무료일러스트" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8/"/>
-    
       <category term="sashie" scheme="https://sapjil.net/tags/sashie/"/>
     
       <category term="simple" scheme="https://sapjil.net/tags/simple/"/>
     
       <category term="사시에" scheme="https://sapjil.net/tags/%EC%82%AC%EC%8B%9C%EC%97%90/"/>
+    
+      <category term="무료일러스트" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8/"/>
     
       <category term="심플" scheme="https://sapjil.net/tags/%EC%8B%AC%ED%94%8C/"/>
     
@@ -350,13 +350,13 @@
       <category term="freebie" scheme="https://sapjil.net/category/freebie/"/>
     
     
+      <category term="design" scheme="https://sapjil.net/tags/design/"/>
+    
       <category term="sapjil" scheme="https://sapjil.net/tags/sapjil/"/>
     
       <category term="삽질" scheme="https://sapjil.net/tags/%EC%82%BD%EC%A7%88/"/>
     
       <category term="freebie" scheme="https://sapjil.net/tags/freebie/"/>
-    
-      <category term="design" scheme="https://sapjil.net/tags/design/"/>
     
       <category term="무료" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C/"/>
     
@@ -398,6 +398,8 @@
       <category term="freebie" scheme="https://sapjil.net/category/freebie/"/>
     
     
+      <category term="design" scheme="https://sapjil.net/tags/design/"/>
+    
       <category term="sapjil" scheme="https://sapjil.net/tags/sapjil/"/>
     
       <category term="freebie" scheme="https://sapjil.net/tags/freebie/"/>
@@ -407,8 +409,6 @@
       <category term="font" scheme="https://sapjil.net/tags/font/"/>
     
       <category term="free" scheme="https://sapjil.net/tags/free/"/>
-    
-      <category term="design" scheme="https://sapjil.net/tags/design/"/>
     
       <category term="무료" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C/"/>
     
@@ -806,9 +806,9 @@
       <category term="www" scheme="https://sapjil.net/category/www/"/>
     
     
-      <category term="무료" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C/"/>
-    
       <category term="generator" scheme="https://sapjil.net/tags/generator/"/>
+    
+      <category term="무료" scheme="https://sapjil.net/tags/%EB%AC%B4%EB%A3%8C/"/>
     
       <category term="placeimg" scheme="https://sapjil.net/tags/placeimg/"/>
     
@@ -892,6 +892,10 @@
       <category term="www" scheme="https://sapjil.net/category/www/"/>
     
     
+      <category term="생성기" scheme="https://sapjil.net/tags/%EC%83%9D%EC%84%B1%EA%B8%B0/"/>
+    
+      <category term="제네레이터" scheme="https://sapjil.net/tags/%EC%A0%9C%EB%84%A4%EB%A0%88%EC%9D%B4%ED%84%B0/"/>
+    
       <category term="generate" scheme="https://sapjil.net/tags/generate/"/>
     
       <category term="css3" scheme="https://sapjil.net/tags/css3/"/>
@@ -901,10 +905,6 @@
       <category term="blend" scheme="https://sapjil.net/tags/blend/"/>
     
       <category term="그라데이션" scheme="https://sapjil.net/tags/%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98/"/>
-    
-      <category term="제네레이터" scheme="https://sapjil.net/tags/%EC%A0%9C%EB%84%A4%EB%A0%88%EC%9D%B4%ED%84%B0/"/>
-    
-      <category term="생성기" scheme="https://sapjil.net/tags/%EC%83%9D%EC%84%B1%EA%B8%B0/"/>
     
   </entry>
   

@@ -8,29 +8,8 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/category/design/</loc>
-        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/category/seo/</loc>
-        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/category/solve/</loc>
-        <lastmod>2019-03-13T11:37:29.241Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/category/coding/</loc>
-        <lastmod>2019-04-28T01:05:51.353Z</lastmod>
+        <loc>https://sapjil.net/category/www/</loc>
+        <lastmod>2019-04-28T03:47:43.591Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -43,8 +22,29 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/category/www/</loc>
-        <lastmod>2019-04-28T01:41:04.103Z</lastmod>
+        <loc>https://sapjil.net/category/coding/</loc>
+        <lastmod>2019-04-28T01:05:51.353Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.net/category/solve/</loc>
+        <lastmod>2019-03-13T11:37:29.241Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.net/category/seo/</loc>
+        <lastmod>2019-03-13T11:37:29.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sapjil.net/category/design/</loc>
+        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
