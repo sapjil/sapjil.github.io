@@ -8,6 +8,38 @@
     </url>
 
     <url>
+        <loc>https://sapjil.net/sapjil-start/</loc>
+        <lastmod>2019-04-28T01:41:04.103Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://sapjil.net/free-illust-girlysozai/</loc>
+        <lastmod>2019-04-28T01:26:25.568Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://sapjil.net/converter/</loc>
+        <lastmod>2019-04-28T01:05:51.353Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://sapjil.net/brackets-extension/</loc>
+        <lastmod>2019-04-28T00:48:06.297Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://sapjil.net/free-illust-dachojugiga/</loc>
         <lastmod>2019-03-19T14:42:51.579Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -112,14 +144,6 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/uifaces/</loc>
-        <lastmod>2019-03-13T11:37:29.238Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://sapjil.net/sublime-text-package/</loc>
         <lastmod>2019-03-13T11:37:29.238Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -128,7 +152,15 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/sapjil-start/</loc>
+        <loc>https://sapjil.net/uifaces/</loc>
+        <lastmod>2019-03-13T11:37:29.238Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://sapjil.net/slideoutjs/</loc>
         <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -144,8 +176,8 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/slideoutjs/</loc>
-        <lastmod>2019-03-13T11:37:29.237Z</lastmod>
+        <loc>https://sapjil.net/placeholder-images/</loc>
+        <lastmod>2019-03-13T11:37:29.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -160,8 +192,8 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/placeholder-images/</loc>
-        <lastmod>2019-03-13T11:37:29.236Z</lastmod>
+        <loc>https://sapjil.net/photoshop-copic-swatches/</loc>
+        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -184,15 +216,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/photoshop-copic-swatches/</loc>
-        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/freebie-mockup/</loc>
+        <loc>https://sapjil.net/free-photoshop-text-effects/</loc>
         <lastmod>2019-03-13T11:37:29.234Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -200,7 +224,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/free-photoshop-text-effects/</loc>
+        <loc>https://sapjil.net/freebie-mockup/</loc>
         <lastmod>2019-03-13T11:37:29.234Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -218,14 +242,6 @@
     <url>
         <loc>https://sapjil.net/freephoto-mikarika/</loc>
         <lastmod>2019-03-13T11:37:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/free-illust-girlysozai/</loc>
-        <lastmod>2019-03-13T11:37:29.233Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -264,6 +280,14 @@
     </url>
 
     <url>
+        <loc>https://sapjil.net/different-domain-css/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://sapjil.net/css3-gradients-generate-blend/</loc>
         <lastmod>2019-03-13T11:37:29.230Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -280,31 +304,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/different-domain-css/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://sapjil.net/ai-colortool-khroma/</loc>
-        <lastmod>2019-03-13T11:37:29.229Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/converter/</loc>
-        <lastmod>2019-03-13T11:37:29.229Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/brackets-extension/</loc>
         <lastmod>2019-03-13T11:37:29.229Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
