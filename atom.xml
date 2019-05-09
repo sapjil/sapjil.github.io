@@ -440,13 +440,13 @@
       <category term="coding" scheme="https://sapjil.net/category/coding/"/>
     
     
+      <category term="coding" scheme="https://sapjil.net/tags/coding/"/>
+    
       <category term="eclipse" scheme="https://sapjil.net/tags/eclipse/"/>
     
       <category term="Quick Search" scheme="https://sapjil.net/tags/Quick-Search/"/>
     
       <category term="shortcut key" scheme="https://sapjil.net/tags/shortcut-key/"/>
-    
-      <category term="coding" scheme="https://sapjil.net/tags/coding/"/>
     
       <category term="plugin" scheme="https://sapjil.net/tags/plugin/"/>
     
@@ -534,11 +534,11 @@
       <category term="coding" scheme="https://sapjil.net/category/coding/"/>
     
     
-      <category term="css" scheme="https://sapjil.net/tags/css/"/>
+      <category term="coding" scheme="https://sapjil.net/tags/coding/"/>
     
       <category term="css3" scheme="https://sapjil.net/tags/css3/"/>
     
-      <category term="coding" scheme="https://sapjil.net/tags/coding/"/>
+      <category term="css" scheme="https://sapjil.net/tags/css/"/>
     
       <category term="normalize" scheme="https://sapjil.net/tags/normalize/"/>
     
@@ -896,9 +896,9 @@
     
       <category term="제네레이터" scheme="https://sapjil.net/tags/%EC%A0%9C%EB%84%A4%EB%A0%88%EC%9D%B4%ED%84%B0/"/>
     
-      <category term="generate" scheme="https://sapjil.net/tags/generate/"/>
-    
       <category term="css3" scheme="https://sapjil.net/tags/css3/"/>
+    
+      <category term="generate" scheme="https://sapjil.net/tags/generate/"/>
     
       <category term="gradients" scheme="https://sapjil.net/tags/gradients/"/>
     

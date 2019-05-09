@@ -208,14 +208,6 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/photoshop-guideguide/</loc>
-        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://sapjil.net/photoshop-copic-swatches/</loc>
         <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -224,16 +216,8 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/freebie-mockup/</loc>
-        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/freefont-glamor/</loc>
-        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
+        <loc>https://sapjil.net/photoshop-guideguide/</loc>
+        <lastmod>2019-03-13T11:37:29.235Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -256,8 +240,16 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/free-font-bonkers/</loc>
-        <lastmod>2019-03-13T11:37:29.232Z</lastmod>
+        <loc>https://sapjil.net/freebie-mockup/</loc>
+        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://sapjil.net/freefont-glamor/</loc>
+        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -280,6 +272,22 @@
     </url>
 
     <url>
+        <loc>https://sapjil.net/free-font-bonkers/</loc>
+        <lastmod>2019-03-13T11:37:29.232Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://sapjil.net/css3-anicolle/</loc>
+        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://sapjil.net/css-priorities/</loc>
         <lastmod>2019-03-13T11:37:29.230Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -289,14 +297,6 @@
 
     <url>
         <loc>https://sapjil.net/css3-gradients-generate-blend/</loc>
-        <lastmod>2019-03-13T11:37:29.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/css3-anicolle/</loc>
         <lastmod>2019-03-13T11:37:29.230Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
