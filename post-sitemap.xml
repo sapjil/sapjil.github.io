@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://sapjil.net/vender-prefix/</loc>
+        <lastmod>2019-05-10T11:37:15.822Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://sapjil.net/blogmove/</loc>
         <lastmod>2019-04-28T03:47:43.591Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -88,14 +96,6 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/vender-prefix/</loc>
-        <lastmod>2019-03-19T14:34:18.024Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://sapjil.net/stylestats/</loc>
         <lastmod>2019-03-19T14:32:09.166Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -120,7 +120,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/wordpress-theme-seo-setting/</loc>
+        <loc>https://sapjil.net/wordpress-underscores/</loc>
         <lastmod>2019-03-13T11:37:29.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -128,7 +128,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/wordpress-underscores/</loc>
+        <loc>https://sapjil.net/wordpress-theme-seo-setting/</loc>
         <lastmod>2019-03-13T11:37:29.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -168,7 +168,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/slideoutjs/</loc>
+        <loc>https://sapjil.net/schist-free-font/</loc>
         <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -176,7 +176,7 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/schist-free-font/</loc>
+        <loc>https://sapjil.net/slideoutjs/</loc>
         <lastmod>2019-03-13T11:37:29.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -224,14 +224,6 @@
     </url>
 
     <url>
-        <loc>https://sapjil.net/freephoto-mikarika/</loc>
-        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://sapjil.net/free-photoshop-text-effects/</loc>
         <lastmod>2019-03-13T11:37:29.234Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -256,6 +248,22 @@
     </url>
 
     <url>
+        <loc>https://sapjil.net/freephoto-mikarika/</loc>
+        <lastmod>2019-03-13T11:37:29.234Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://sapjil.net/free-font-bonkers/</loc>
+        <lastmod>2019-03-13T11:37:29.232Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://sapjil.net/free-font-bundle-2018/</loc>
         <lastmod>2019-03-13T11:37:29.232Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -265,14 +273,6 @@
 
     <url>
         <loc>https://sapjil.net/free-icon-kitchen/</loc>
-        <lastmod>2019-03-13T11:37:29.232Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/free-font-bonkers/</loc>
         <lastmod>2019-03-13T11:37:29.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

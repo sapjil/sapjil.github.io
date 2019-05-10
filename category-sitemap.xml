@@ -8,6 +8,13 @@
     </url>
 
     <url>
+        <loc>https://sapjil.net/category/coding/</loc>
+        <lastmod>2019-05-10T11:37:15.822Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://sapjil.net/category/www/</loc>
         <lastmod>2019-04-28T03:47:43.591Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,13 +24,6 @@
     <url>
         <loc>https://sapjil.net/category/freebie/</loc>
         <lastmod>2019-04-28T01:26:25.568Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sapjil.net/category/coding/</loc>
-        <lastmod>2019-04-28T01:05:51.353Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
