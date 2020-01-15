@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- -->
+    <meta property="article:publisher" content="https://www.facebook.com/sapjilnet">
+    <meta property="article:author" content="https://www.facebook.com/sapjilnet">
+    <meta name="naver-site-verification" content="50837758a9382ac2600a893d7151fad1b4fa4809">
+    <script src="//kitchen.juicer.cc/?color=rSeJtMNjAKQ=" async></script>
+
+    <meta name="description" content="사이트 구축시 사용되는 CSS중에서 가장 많이 알려져 있고, 알려져 있는 만큼 많이 사용되고 있는 것 중에서 비슷하면서도 다른 성격을 가지고 있는 reset.css와 normalize.css에 대해서 살짝 알아보았습니다.">
+<meta name="keywords" content="coding,css3,css,normalize,reset,markup,초기화,마크업">
+<meta property="og:type" content="article">
+<meta property="og:title" content="reset.css 와 Normalize.css">
+<meta property="og:url" content="https://sapjil.net/resetcss-normalizecss/index.html">
+<meta property="og:site_name" content="SAPJIL">
+<meta property="og:description" content="사이트 구축시 사용되는 CSS중에서 가장 많이 알려져 있고, 알려져 있는 만큼 많이 사용되고 있는 것 중에서 비슷하면서도 다른 성격을 가지고 있는 reset.css와 normalize.css에 대해서 살짝 알아보았습니다.">
+<meta property="og:locale" content="ko">
+<meta property="og:image" content="https://farm1.staticflickr.com/592/31726689720_9303aef7ca_c.jpg">
+<meta property="og:updated_time" content="2019-03-19T14:35:03.847Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="reset.css 와 Normalize.css">
+<meta name="twitter:description" content="사이트 구축시 사용되는 CSS중에서 가장 많이 알려져 있고, 알려져 있는 만큼 많이 사용되고 있는 것 중에서 비슷하면서도 다른 성격을 가지고 있는 reset.css와 normalize.css에 대해서 살짝 알아보았습니다.">
+<meta name="twitter:image" content="https://farm1.staticflickr.com/592/31726689720_9303aef7ca_c.jpg">
+<meta name="twitter:creator" content="@sapjilnet">
+<meta property="fb:admins" content="1017282400">
+    
+    
+    <link rel="canonical" href="https://sapjil.net/resetcss-normalizecss/">
+
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>reset.css 와 Normalize.css - SAPJIL</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- Amp generator -->
+    
+    <!-- rss -->
+    
+    
+    <!-- Woopra Code -->
+    <script>
+      (function(){
+        var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+      })("woopra");
+      woopra.config({
+          domain: 'sapjil.net'
+      });
+      woopra.track();
+    </script>
+    
+    <!-- Google AD -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-6250165231176696",
+              enable_page_level_ads: true
+          });
+    </script>
+    
+    <!-- Sentry -->
+    <script src="https://browser.sentry-cdn.com/4.6.4/bundle.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/solve/">solve</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/vender-prefix/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/easier-using-git/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://sapjil.net/resetcss-normalizecss/" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://sapjil.net/resetcss-normalizecss/&text=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://sapjil.net/resetcss-normalizecss/&title=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://sapjil.net/resetcss-normalizecss/&is_video=false&description=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=reset.css 와 Normalize.css&body=Check out this article: https://sapjil.net/resetcss-normalizecss/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://sapjil.net/resetcss-normalizecss/&title=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://sapjil.net/resetcss-normalizecss/&title=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://sapjil.net/resetcss-normalizecss/&title=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://sapjil.net/resetcss-normalizecss/&title=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://sapjil.net/resetcss-normalizecss/&name=reset.css 와 Normalize.css&description=" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#사이트제작시-기본적으로-알아두면-좋을-CSS"><span class="toc-number">1.</span> <span class="toc-text">사이트제작시 기본적으로 알아두면 좋을 CSS</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Reset-css"><span class="toc-number">1.1.</span> <span class="toc-text">Reset.css</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Normalize-css"><span class="toc-number">1.2.</span> <span class="toc-text">Normalize.css</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        reset.css 와 Normalize.css
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">SAPJIL</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2017-01-06T02:30:00.000Z" itemprop="datePublished">2017-01-06</time>
+        
+        (Updated: <time datetime="2019-03-19T14:35:03.847Z" itemprop="dateModified">2019-03-19</time>)
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/category/coding/">coding</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/coding/">coding</a>, <a class="tag-link" href="/tags/css/">css</a>, <a class="tag-link" href="/tags/css3/">css3</a>, <a class="tag-link" href="/tags/markup/">markup</a>, <a class="tag-link" href="/tags/normalize/">normalize</a>, <a class="tag-link" href="/tags/reset/">reset</a>, <a class="tag-link" href="/tags/마크업/">마크업</a>, <a class="tag-link" href="/tags/초기화/">초기화</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>가끔 Reset CSS와 Normalize를 동일시하시는 분들이 있는것 같습니다만, 확실한 차이가 있는 만큼 모르시던 분들은 이번 기회에 차이점을 이해하시면 어떨까 합니다. Normalize.css는 Reset CSS와 비슷한 기능을 하지만 조금 다른 부분이 있습니다.<mark> Reset CSS가 말 그대로 무조건 초기화를 시켜버리는것에 집중하고 있는것에 반해 Normalize의 경우는 초기화는 시키지만 어느정도 스타일이 가미되어 있다</mark>고 이해하시면 좋을듯 합니다.</p>
+<p><img src="https://farm1.staticflickr.com/592/31726689720_9303aef7ca_c.jpg" alt="sapjil-resetcss-normalizecss"></p>
+<h2 id="사이트제작시-기본적으로-알아두면-좋을-CSS"><a href="#사이트제작시-기본적으로-알아두면-좋을-CSS" class="headerlink" title="사이트제작시 기본적으로 알아두면 좋을 CSS"></a>사이트제작시 기본적으로 알아두면 좋을 CSS</h2><p>어느사이엔가 웹에서 <strong>CSS(cascadind style sheet)</strong>는 기술의 발전에 따라 여러 유파가 생기고 없어지고 살아남기를 반복하는 생태계가 형성되어, 초기에는 없던 것들이 기술의 발달과 함께 여러 방향으로 발전을 하였습니다. 어느 분야나 마찬가지 겠지만, 깊이있게 들어가고 시간이 경과 할수록 나름대로의 생태계가 형성되는건 어쩔 수 없는 자연현상인것 같습니다. 이제는 거의 모든 마크업 엔지니어들이 작업에 도입하고 있다고 보여지는 reset.css와 normalize.css도 이런 흐름속에서 나온 산물이라고 생각되며, 초기 작업시간을 단축시켜준다는 효율성이 입증 되면서 공유되어 알려지기 시작했다고 기억하고 있습니다…</p>
+<h3 id="Reset-css"><a href="#Reset-css" class="headerlink" title="Reset.css"></a>Reset.css</h3><p><strong>Reset CSS</strong>란 설명하자면 <mark>브라우저간의 차이를 최대한 없에서, 스타일이 0인 상태에서 디자인을 만들어 나가기</mark> 위해 생겨난것입니다.</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">* &#123;</span><br><span class="line"><span class="attribute">marin</span>: <span class="number">0</span>;</span><br><span class="line"><span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line"><span class="attribute">border</span>: none;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>웹 초기(?)에 reset이라는 개념이 잡히기 전에는 전역셀렉트인 <code>*</code>로 초기화시키는 방법을 많이 사용하곤 했었습니다만, 전역으로 사용되는 만큼 불필요한 렌더링으로 인해 0.몇초 단위까지 신경써야 하는 거대 기업들에서 근무하던 머리좋은 변태분들(?)께서 신경써주신 덕분에 요새는 거의 사용되고 있진 않는 방식입니다.</p>
+<p>Eric Mayer씨가 고안한 <a href="http://meyerweb.com/eric/tools/css/reset/" rel="external nofollow noopener noreferrer" target="_blank">Reset CSS</a>가 가장 유명하고 yahoo에서 발표한 <a href="http://yuilibrary.com/yui/docs/cssreset/" rel="external nofollow noopener noreferrer" target="_blank">YUI</a>도 많이 사용되곤 했습니다. 찾아보니 Reset CSS는 v2.0으로 2011년도가 최신상태이고, YUI는 2014년에 v3.18.1이 나온뒤 업데이트가 없는것 같습니다.</p>
+<p>이 외에도 디자이너, 마크업엔지니어가 자기 취향에 맞게끔 만들어낸 여러 Reset CSS가 존재하고 있으니 찾아보시고 소스를 보면서 공부해 보시길 추천합니다.</p>
+<p>아래 CDN을 통해서 지난 버전까지도 확인이 가능합니다.<br><a href="https://cdnjs.com/libraries/meyer-reset" rel="external nofollow noopener noreferrer" target="_blank">https://cdnjs.com/libraries/meyer-reset</a></p>
+<h3 id="Normalize-css"><a href="#Normalize-css" class="headerlink" title="Normalize.css"></a>Normalize.css</h3><p>가끔 Reset CSS와 Normalize를 동일시하시는 분들이 있는것 같습니다만.. <a href="http://necolas.github.io/normalize.css/" rel="external nofollow noopener noreferrer" target="_blank">Normalize.css</a>는 <mark>Reset CSS와 비슷한 기능을 하지만 속을 들여다 보면, 조금 다르다</mark>는것을 확인할 수 있습니다.</p>
+<p>간단한 예제로 최신 버전인 v5.0.0에서 h1은 다음과 같은 속성을 이미 가지고 있습니다. reset에서 속성을 <code>font-size: 100%</code>등으로 전체 사이트의 폰트를 통일 시켜두는 것과 다르다는 것을 확인 할 수 있는 부분입니다.</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">h1</span> &#123;</span><br><span class="line"><span class="attribute">font-size</span>: <span class="number">2em</span>;</span><br><span class="line"><span class="attribute">margin</span>: <span class="number">0.67em</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><mark>Normalize의 사용상 주의점</mark>이 있습니다. 앞서 언급했듯이 reset보다 디자인적인 요소가 가미되어 있기때문에, 진행하는 프로젝트에 미치는 범위를 미리 파악하시는게 좋습니다. Normalize중에서 아무거나 한가지를 선택해서 사용하면 좋을 것 같습니다만, 요새는 Reset CSS보다 Normalize가 많이 사용되고 있는 것으로 알고 있습니다.</p>
+<p>아래 CDN을 통해서 지난 버전까지도 확인이 가능합니다.<br><a href="https://cdnjs.com/libraries/normalize" rel="external nofollow noopener noreferrer" target="_blank">https://cdnjs.com/libraries/normalize</a></p>
+<blockquote>
+<p>한동안 프로젝트나 여러 개인사정 때문에 포스팅을 원활하게 하지 못했습니다만.. 새해를 맞이하야 도메인과 호스팅 비용도 계산을 했으니 다시 Re-Start 해보겠습니다.</p>
+</blockquote>
+
+  </div>
+</article>
+<!-- Google Adsense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- sapjil -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6250165231176696" data-ad-slot="5559070679" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- // Google Adsense -->
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/solve/">solve</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#사이트제작시-기본적으로-알아두면-좋을-CSS"><span class="toc-number">1.</span> <span class="toc-text">사이트제작시 기본적으로 알아두면 좋을 CSS</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Reset-css"><span class="toc-number">1.1.</span> <span class="toc-text">Reset.css</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Normalize-css"><span class="toc-number">1.2.</span> <span class="toc-text">Normalize.css</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://sapjil.net/resetcss-normalizecss/" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://sapjil.net/resetcss-normalizecss/&text=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://sapjil.net/resetcss-normalizecss/&title=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://sapjil.net/resetcss-normalizecss/&is_video=false&description=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=reset.css 와 Normalize.css&body=Check out this article: https://sapjil.net/resetcss-normalizecss/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://sapjil.net/resetcss-normalizecss/&title=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://sapjil.net/resetcss-normalizecss/&title=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://sapjil.net/resetcss-normalizecss/&title=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://sapjil.net/resetcss-normalizecss/&title=reset.css 와 Normalize.css" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://sapjil.net/resetcss-normalizecss/&name=reset.css 와 Normalize.css&description=" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 Nam Hyubsoo
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/solve/">solve</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+  <script type="text/javascript">
+      (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-389362-21', 'auto');
+      ga('send', 'pageview');
+  </script>
+
+
+<!-- Naver Analytics -->
+
+  <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+  <script type="text/javascript">
+  if(!wcs_add) var wcs_add = {};
+  wcs_add["wa"] = 'dcc6b3f31a92f8';
+  wcs_do();
+  </script>
+
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'sapjil';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+</body>
+</html>

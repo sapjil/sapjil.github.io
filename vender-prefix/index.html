@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- -->
+    <meta property="article:publisher" content="https://www.facebook.com/sapjilnet">
+    <meta property="article:author" content="https://www.facebook.com/sapjilnet">
+    <meta name="naver-site-verification" content="50837758a9382ac2600a893d7151fad1b4fa4809">
+    <script src="//kitchen.juicer.cc/?color=rSeJtMNjAKQ=" async></script>
+
+    <meta name="description" content="CSS3가 완전히 정착되면 없어질 것으로 예상되고 있는  벤더 프리픽스 (vendor prefix)는 각각의 브라우저에서 판독이 가능한 접두어를 붙여서 해당 브라우저에서 인식할 수 있게 하는 것을 지칭하고 있습니다. 개념과 사용법에 대하여 알아 보았습니다.">
+<meta name="keywords" content="css,sapjil,벤더 프리픽스,프리프로세서,전처리,컴파일,vendor prefix,prefixfree,Preprocessor,-moz-,-webkit-,-o-,-ms-,compile,compiler">
+<meta property="og:type" content="article">
+<meta property="og:title" content="벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?">
+<meta property="og:url" content="https://sapjil.net/vender-prefix/index.html">
+<meta property="og:site_name" content="SAPJIL">
+<meta property="og:description" content="CSS3가 완전히 정착되면 없어질 것으로 예상되고 있는  벤더 프리픽스 (vendor prefix)는 각각의 브라우저에서 판독이 가능한 접두어를 붙여서 해당 브라우저에서 인식할 수 있게 하는 것을 지칭하고 있습니다. 개념과 사용법에 대하여 알아 보았습니다.">
+<meta property="og:locale" content="ko">
+<meta property="og:image" content="https://live.staticflickr.com/65535/32873585537_16ee51cf60_c.jpg">
+<meta property="og:updated_time" content="2019-05-10T11:37:15.822Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?">
+<meta name="twitter:description" content="CSS3가 완전히 정착되면 없어질 것으로 예상되고 있는  벤더 프리픽스 (vendor prefix)는 각각의 브라우저에서 판독이 가능한 접두어를 붙여서 해당 브라우저에서 인식할 수 있게 하는 것을 지칭하고 있습니다. 개념과 사용법에 대하여 알아 보았습니다.">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/32873585537_16ee51cf60_c.jpg">
+<meta name="twitter:creator" content="@sapjilnet">
+<meta property="fb:admins" content="1017282400">
+    
+    
+    <link rel="canonical" href="https://sapjil.net/vender-prefix/">
+
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠? - SAPJIL</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- Amp generator -->
+    
+    <!-- rss -->
+    
+    
+    <!-- Woopra Code -->
+    <script>
+      (function(){
+        var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+      })("woopra");
+      woopra.config({
+          domain: 'sapjil.net'
+      });
+      woopra.track();
+    </script>
+    
+    <!-- Google AD -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-6250165231176696",
+              enable_page_level_ads: true
+          });
+    </script>
+    
+    <!-- Sentry -->
+    <script src="https://browser.sentry-cdn.com/4.6.4/bundle.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/solve/">solve</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/eclipse-shortcut-key/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/resetcss-normalizecss/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://sapjil.net/vender-prefix/" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://sapjil.net/vender-prefix/&text=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://sapjil.net/vender-prefix/&title=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://sapjil.net/vender-prefix/&is_video=false&description=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?&body=Check out this article: https://sapjil.net/vender-prefix/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://sapjil.net/vender-prefix/&title=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://sapjil.net/vender-prefix/&title=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://sapjil.net/vender-prefix/&title=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://sapjil.net/vender-prefix/&title=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://sapjil.net/vender-prefix/&name=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?&description=" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#벤더-프리픽스-vendor-prefix-개념"><span class="toc-number">1.</span> <span class="toc-text">벤더 프리픽스 (vendor prefix) 개념</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#사용법"><span class="toc-number">2.</span> <span class="toc-text">사용법</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">SAPJIL</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2017-02-07T23:54:00.000Z" itemprop="datePublished">2017-02-08</time>
+        
+        (Updated: <time datetime="2019-05-10T11:37:15.822Z" itemprop="dateModified">2019-05-10</time>)
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/category/coding/">coding</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/moz/">-moz-</a>, <a class="tag-link" href="/tags/ms/">-ms-</a>, <a class="tag-link" href="/tags/o/">-o-</a>, <a class="tag-link" href="/tags/webkit/">-webkit-</a>, <a class="tag-link" href="/tags/Preprocessor/">Preprocessor</a>, <a class="tag-link" href="/tags/compile/">compile</a>, <a class="tag-link" href="/tags/compiler/">compiler</a>, <a class="tag-link" href="/tags/css/">css</a>, <a class="tag-link" href="/tags/prefixfree/">prefixfree</a>, <a class="tag-link" href="/tags/sapjil/">sapjil</a>, <a class="tag-link" href="/tags/vendor-prefix/">vendor prefix</a>, <a class="tag-link" href="/tags/벤더-프리픽스/">벤더 프리픽스</a>, <a class="tag-link" href="/tags/전처리/">전처리</a>, <a class="tag-link" href="/tags/컴파일/">컴파일</a>, <a class="tag-link" href="/tags/프리프로세서/">프리프로세서</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>이제는 마크업엔지니어라면 다들(?) 알고 있겠지만 그래도 그냥 코딩만 하기보다는 누가 물어봤을 때 대답해주면 전문가다워 보일 수 있을 것 같아 알아봤습니다.</p>
+<p><img src="https://live.staticflickr.com/65535/32873585537_16ee51cf60_c.jpg" alt="sapjil-vendor-prefix"></p>
+<h2 id="벤더-프리픽스-vendor-prefix-개념"><a href="#벤더-프리픽스-vendor-prefix-개념" class="headerlink" title="벤더 프리픽스 (vendor prefix) 개념"></a>벤더 프리픽스 (vendor prefix) 개념</h2><blockquote>
+<p>vendor - 자동판매<br>prefix - 접두사</p>
+</blockquote>
+<p>브라우저별로 따로 놀던 CSS3의 속성을 잡아주기 위해서 사용되기 시작된 프리픽스는 마크업시 Css의 Class앞에 <code>-moz-</code>, <code>-webkit-</code>, <code>-o-</code>, <code>-ms-</code>라는 <mark>각 브라우저에서 판독이 가능한 접두어를 붙여서 해당 브라우저에서 인식할 수 있게 하는 것</mark>을 지칭하고 있습니다. 요새는 하나하나 직접작성 하는것 보다 Codekit, Compass, grunt, gulp등과 같은 전처리(Preprocessing)를 도와주는 툴을 사용하고 있는게 추세라고 할 수 있을 것 같습니다. </p>
+<p>사전 준비를 잘할 경우 Sass의 mixin을 사용하여 비슷한 효과를 볼 수도 있습니다. 익스플로러에 대응하기 위하여 <code>filter</code>를 적용시키는 작업을 한적도 있습니다.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-attr">[SAMPLE]</span></span><br><span class="line"><span class="selector-tag">background</span>: <span class="selector-tag">-ms-linear-gradient</span>(<span class="selector-tag">top</span>, <span class="selector-id">#e7a66d</span> 0%, <span class="selector-id">#fcb16d</span> 1%, <span class="selector-id">#ff8d05</span> 42%, <span class="selector-id">#ffc450</span> 100%);</span><br><span class="line"><span class="selector-tag">background</span>: <span class="selector-tag">linear-gradient</span>(<span class="selector-tag">to</span> <span class="selector-tag">bottom</span>, <span class="selector-id">#e7a66d</span> 0%, <span class="selector-id">#fcb16d</span> 1%, <span class="selector-id">#ff8d05</span> 42%, <span class="selector-id">#ffc450</span> 100%);</span><br><span class="line">filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7a66d', endColorstr='#ffc450', GradientType=0);</span><br></pre></td></tr></table></figure>
+<p>브라우저가 버전업을 할 수록 이러한 프리픽스의 사용은 점점 없어질 것으로 기대를 했었는데 벌써 3, 4년전 이야기로 기억되고.. 아직도 남아 있는걸 보면 어디까지나 추론에 지나지 않지만 앞으로도 3, 4년은 거뜬할 것 같네요. 사용하는데 있어서도 딱히 어려울것은 없지만 브라우저가 버전업이 되면서 불필요하게 생기는 요소들에 대해서는 멘테넌스가 필요하다는 점은 주의가 필요할 것 같습니다.</p>
+<h2 id="사용법"><a href="#사용법" class="headerlink" title="사용법"></a>사용법</h2><p>너무 쉬워서(?) 특별히 사용법을 언급 하는건 좀 그렇습니다.<br>CSS가 읽히는 순서나 특성을 생각하면 따로 설명이 필요 없는 부분이지만..<br>적혀있는 순서대로 읽고, 자기한테 적합한 부분과 만나면 판단을 내리고 다음 속성으로 넘어갑니다.<br>예. 그렇습니다. <mark>CSS의 문법 특성만 이해하고 있다면 사용에 아무런 문제가 없습니다.</mark><br>아, 큰 의미는 없지만 아무런 접두어가 붙지 않는 CSS3속성을 가장 마지막에 둔다는 것 정도는 주의하셔도 좋을 것 같습니다.</p>
+<blockquote>
+<p>아래는 기본적인 사용 예제입니다. 브라우저가 계속 버전업되고 있는 상황인만큼 사용전에 꼭 확인해보시기 바랍니다. 오페라의 경우 -o-를 사용하다가 -webkit-으로 변동되기도 한 걸로 나타나고 있네요.. <strong><a href="http://caniuse.com/#feat=matchesselector" rel="external nofollow noopener noreferrer" target="_blank">caniuse</a></strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>CSS Sample</th>
+<th>Browser</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>-webkit-</strong>border-radius: 10px;</td>
+<td>사파리, 크롬</td>
+</tr>
+<tr>
+<td><strong>-moz-</strong>​border-radius: 10px;</td>
+<td>파이어폭스</td>
+</tr>
+<tr>
+<td><strong>-o-</strong>​border-radius: 10px;</td>
+<td>오페라</td>
+</tr>
+<tr>
+<td><strong>-ms-</strong>border-radius: 10px;</td>
+<td>인터넷 익스프롤러</td>
+</tr>
+<tr>
+<td>border-radius: 10px;</td>
+<td>표준 속성</td>
+</tr>
+</tbody>
+</table>
+<p>이런 입력을 하지 않아도 해결해 주는 JS라이브러리도 있습니다만.. 어디까지나 개인적인 취향이지만 <a href="http://leaverou.github.io/prefixfree/" rel="external nofollow noopener noreferrer" target="_blank">prefixfree</a>와 같은 스크립트를 추가 시키는 것 보다 CSS에서 대처하는 쪽을 선호하는 편입니다. SASS와 같은 컴파일러를 사용하는 방법이 보편화되기 전에는 일일이 수작업이 동반되어야 했던 관계로 확인 차원에서 문제가 있었습니다. 때문에 JS를 사용하여 일괄 적용하고, 불필요해질 경우엔 그 스크립트만 제거시키는 방향으로 작업이 진행되곤 하였습니다. 화면에서 이루어지는 디자인적인 문제를 가능하면 스크립트가 아닌 CSS에서 제어시키는 게 좋다고 생각하는 이유는.. 단순히 스크립트로 도배가 되는걸 별로 좋아하지 않아서 입니다.</p>
+<p>만약 프리프로세서를 사용하지 않고 있는 상황에서 벤더 프리픽스를 사용하여야 한다면 <a href="http://caniuse.com/" rel="external nofollow noopener noreferrer" target="_blank">caniuse</a>를 통해 브라우저별 적용 범위에 대해 한번쯤 확인해 보시길 추천합니다.</p>
+<p>새롭게 마크업 엔지니어를 시작하시는 분에게 조금이라도 도움이 되는 정보가 되었으면 좋겠습니다.</p>
+
+  </div>
+</article>
+<!-- Google Adsense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- sapjil -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6250165231176696" data-ad-slot="5559070679" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- // Google Adsense -->
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/solve/">solve</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#벤더-프리픽스-vendor-prefix-개념"><span class="toc-number">1.</span> <span class="toc-text">벤더 프리픽스 (vendor prefix) 개념</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#사용법"><span class="toc-number">2.</span> <span class="toc-text">사용법</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://sapjil.net/vender-prefix/" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://sapjil.net/vender-prefix/&text=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://sapjil.net/vender-prefix/&title=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://sapjil.net/vender-prefix/&is_video=false&description=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?&body=Check out this article: https://sapjil.net/vender-prefix/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://sapjil.net/vender-prefix/&title=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://sapjil.net/vender-prefix/&title=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://sapjil.net/vender-prefix/&title=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://sapjil.net/vender-prefix/&title=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://sapjil.net/vender-prefix/&name=벤더 프리픽스(vendor prefix) 정도는 알고 가셔야죠?&description=" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 Nam Hyubsoo
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/solve/">solve</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+  <script type="text/javascript">
+      (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-389362-21', 'auto');
+      ga('send', 'pageview');
+  </script>
+
+
+<!-- Naver Analytics -->
+
+  <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+  <script type="text/javascript">
+  if(!wcs_add) var wcs_add = {};
+  wcs_add["wa"] = 'dcc6b3f31a92f8';
+  wcs_do();
+  </script>
+
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'sapjil';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+</body>
+</html>

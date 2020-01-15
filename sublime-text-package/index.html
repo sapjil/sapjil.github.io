@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- -->
+    <meta property="article:publisher" content="https://www.facebook.com/sapjilnet">
+    <meta property="article:author" content="https://www.facebook.com/sapjilnet">
+    <meta name="naver-site-verification" content="50837758a9382ac2600a893d7151fad1b4fa4809">
+    <script src="//kitchen.juicer.cc/?color=rSeJtMNjAKQ=" async></script>
+
+    <meta name="description" content="Sublime Text Package중에서 작업효율을 올려주는 것들을 위주로 정리해 보았습니다. 익숙해지면 분명 작업시간이 단축되는 것을 체감하실 수 있을겁니다.">
+<meta name="keywords" content="plugin,sapjil,플러그인,sublime text,서브라임 텍스트,패키지,확장 기능,package,random text,All Autocomplete,AutoFileName,Diffy,Emmet,GitGutter,Goto-CSS-Declaration,SCSS,SublimeLinter,Tag,BracketHighlighter,W3CValidators">
+<meta property="og:type" content="article">
+<meta property="og:title" content="코딩의 작업효율을 올려주는 Sublime Text Package">
+<meta property="og:url" content="https://sapjil.net/sublime-text-package/index.html">
+<meta property="og:site_name" content="SAPJIL">
+<meta property="og:description" content="Sublime Text Package중에서 작업효율을 올려주는 것들을 위주로 정리해 보았습니다. 익숙해지면 분명 작업시간이 단축되는 것을 체감하실 수 있을겁니다.">
+<meta property="og:locale" content="ko">
+<meta property="og:image" content="https://c2.staticflickr.com/4/3956/19236566915_a0e2baa0a3_o.jpg">
+<meta property="og:image" content="https://c1.staticflickr.com/1/401/19239180481_30a4bbe8bf_o.png">
+<meta property="og:image" content="https://c1.staticflickr.com/1/475/19209396496_1c486a953f_o.png">
+<meta property="og:image" content="https://c1.staticflickr.com/1/415/19209333676_0af432f65d_o.png">
+<meta property="og:image" content="https://c1.staticflickr.com/1/425/18614858753_7e48eb20ff_o.png">
+<meta property="og:image" content="https://c1.staticflickr.com/1/266/19047802790_77c46ddcf5_o.png">
+<meta property="og:image" content="https://c2.staticflickr.com/4/3754/18612944764_4b0f08289f_o.png">
+<meta property="og:image" content="https://c1.staticflickr.com/1/518/19049273119_bb31207637_o.png">
+<meta property="og:image" content="https://c1.staticflickr.com/1/378/19229506942_df64fc001a_o.png">
+<meta property="og:image" content="https://c1.staticflickr.com/1/527/19209332826_7ab3063b63_o.png">
+<meta property="og:image" content="https://c2.staticflickr.com/4/3674/18614858843_e382c48f7f_o.png">
+<meta property="og:image" content="https://c2.staticflickr.com/4/3791/19049273799_2d6eba12f9_o.png">
+<meta property="og:image" content="https://media.giphy.com/media/3oz8xKvVpylFjnSLK0/giphy.gif">
+<meta property="og:updated_time" content="2019-03-13T11:37:29.238Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="코딩의 작업효율을 올려주는 Sublime Text Package">
+<meta name="twitter:description" content="Sublime Text Package중에서 작업효율을 올려주는 것들을 위주로 정리해 보았습니다. 익숙해지면 분명 작업시간이 단축되는 것을 체감하실 수 있을겁니다.">
+<meta name="twitter:image" content="https://c2.staticflickr.com/4/3956/19236566915_a0e2baa0a3_o.jpg">
+<meta name="twitter:creator" content="@sapjilnet">
+<meta property="fb:admins" content="1017282400">
+    
+    
+    <link rel="canonical" href="https://sapjil.net/sublime-text-package/">
+
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>코딩의 작업효율을 올려주는 Sublime Text Package - SAPJIL</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- Amp generator -->
+    
+    <!-- rss -->
+    
+    
+    <!-- Woopra Code -->
+    <script>
+      (function(){
+        var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+      })("woopra");
+      woopra.config({
+          domain: 'sapjil.net'
+      });
+      woopra.track();
+    </script>
+    
+    <!-- Google AD -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-6250165231176696",
+              enable_page_level_ads: true
+          });
+    </script>
+    
+    <!-- Sentry -->
+    <script src="https://browser.sentry-cdn.com/4.6.4/bundle.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/solve/">solve</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/wordpress-theme-seo-setting/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/slideoutjs/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://sapjil.net/sublime-text-package/" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://sapjil.net/sublime-text-package/&text=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://sapjil.net/sublime-text-package/&title=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://sapjil.net/sublime-text-package/&is_video=false&description=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=코딩의 작업효율을 올려주는 Sublime Text Package&body=Check out this article: https://sapjil.net/sublime-text-package/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://sapjil.net/sublime-text-package/&title=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://sapjil.net/sublime-text-package/&title=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://sapjil.net/sublime-text-package/&title=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://sapjil.net/sublime-text-package/&title=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://sapjil.net/sublime-text-package/&name=코딩의 작업효율을 올려주는 Sublime Text Package&description=" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Package-Control"><span class="toc-number">1.</span> <span class="toc-text">Package Control</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#All-Autocomplete"><span class="toc-number">2.</span> <span class="toc-text">All Autocomplete</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#AutoFileName"><span class="toc-number">3.</span> <span class="toc-text">AutoFileName</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Diffy"><span class="toc-number">4.</span> <span class="toc-text">Diffy</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Emmet"><span class="toc-number">5.</span> <span class="toc-text">Emmet</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#GitGutter"><span class="toc-number">6.</span> <span class="toc-text">GitGutter</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Goto-CSS-Declaration"><span class="toc-number">7.</span> <span class="toc-text">Goto-CSS-Declaration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SCSS"><span class="toc-number">8.</span> <span class="toc-text">SCSS</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SublimeLinter"><span class="toc-number">9.</span> <span class="toc-text">SublimeLinter</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tag"><span class="toc-number">10.</span> <span class="toc-text">Tag</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#BracketHighlighter"><span class="toc-number">11.</span> <span class="toc-text">BracketHighlighter</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#W3CValidators"><span class="toc-number">12.</span> <span class="toc-text">W3CValidators</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Random-sublime-text-plugin"><span class="toc-number">13.</span> <span class="toc-text">Random-sublime-text-plugin</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        코딩의 작업효율을 올려주는 Sublime Text Package
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">SAPJIL</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2015-06-29T01:45:00.000Z" itemprop="datePublished">2015-06-29</time>
+        
+        (Updated: <time datetime="2019-03-13T11:37:29.238Z" itemprop="dateModified">2019-03-13</time>)
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/category/coding/">coding</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/All-Autocomplete/">All Autocomplete</a>, <a class="tag-link" href="/tags/AutoFileName/">AutoFileName</a>, <a class="tag-link" href="/tags/BracketHighlighter/">BracketHighlighter</a>, <a class="tag-link" href="/tags/Diffy/">Diffy</a>, <a class="tag-link" href="/tags/Emmet/">Emmet</a>, <a class="tag-link" href="/tags/GitGutter/">GitGutter</a>, <a class="tag-link" href="/tags/Goto-CSS-Declaration/">Goto-CSS-Declaration</a>, <a class="tag-link" href="/tags/SCSS/">SCSS</a>, <a class="tag-link" href="/tags/SublimeLinter/">SublimeLinter</a>, <a class="tag-link" href="/tags/Tag/">Tag</a>, <a class="tag-link" href="/tags/W3CValidators/">W3CValidators</a>, <a class="tag-link" href="/tags/package/">package</a>, <a class="tag-link" href="/tags/plugin/">plugin</a>, <a class="tag-link" href="/tags/random-text/">random text</a>, <a class="tag-link" href="/tags/sapjil/">sapjil</a>, <a class="tag-link" href="/tags/sublime-text/">sublime text</a>, <a class="tag-link" href="/tags/서브라임-텍스트/">서브라임 텍스트</a>, <a class="tag-link" href="/tags/패키지/">패키지</a>, <a class="tag-link" href="/tags/플러그인/">플러그인</a>, <a class="tag-link" href="/tags/확장-기능/">확장 기능</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p><img src="https://c2.staticflickr.com/4/3956/19236566915_a0e2baa0a3_o.jpg" alt="sapjil-sublimetext"></p>
+<p>최근의 많이 사용되고 있는 에디터중에는 Brackets, Sublime Text가 가장 많이 사용되고 있지 않나 생각됩니다. 이상하게도 한국에서는 Editplus가 많은데 그 이유는 잘 모르겠습니다만.. 저는 Sublime Text를 애용하는 편입니다. 개인적으로 Coda를 주로 사용했었는데 Sublime을 접한 후로는 메인으로 사용하고 있습니다.</p>
+<p>초반에는 그저 가볍고 좋아보여서 사용하기 시작했지만 사용하다보니 이것 저것 플러그인을 깔고 몸집이 커지는 느낌도 들고.. 이번기회에 실제로 사용하지 않는 플러그인을 삭제도 할겸, 정리하고 나니 지우지 않게 되는 몇가지가 있어 정리를 해 보았습니다.</p>
+<p><strong>table of contents</strong></p>
+<ul>
+<li><a href="#Package-Control">Package Control - 사전에 설치해 두어야 함</a></li>
+<li><a href="#All-Autocomplete">All Autocomplete - 자동완성을 지원</a></li>
+<li><a href="#AutoFileName">AutoFileName - 자동으로 파일의 위치를 표시</a></li>
+<li><a href="#Diffy">Diffy - 파일을 비교해줌</a></li>
+<li><a href="#Emmet">Emmet - 젠코딩</a></li>
+<li><a href="#GitGutter">GitGutter - 버전관리상태를 알아 볼수 있게 도와줌</a></li>
+<li><a href="#Goto-CSS-Declaration">Goto-CSS-Declaration - html에서 클래스 선택시 css로 이동시켜줌</a></li>
+<li><a href="#SCSS">SCSS - SASS에 Syntax적용</a></li>
+<li><a href="#SublimeLinter">SublimeLinter - Lint 설치</a></li>
+<li><a href="#Tag">Tag - 태그의 열고 닫기를 지원</a></li>
+<li><a href="#BracketHighlighter">BracketHighlighter - Tag의 온오프 상태 확인</a></li>
+<li><a href="#W3CValidators">W3CValidators - w3c문법 체크</a></li>
+<li><a href="#Random-sublime-text-plugin">Random-sublime-text-plugin - 랜덤 텍스트 생성</a></li>
+</ul>
+<h2 id="Package-Control"><a href="#Package-Control" class="headerlink" title="Package Control"></a>Package Control</h2><p>Sublime Text에서 각종 추가기능을 사용하기 위해서는 Package Control을 사용해야 합니다. 공식사이트에서 제공하는 코드를 복사해서 Package Control를 활성화 해주시면 됩니다.</p>
+<p><a href="https://packagecontrol.io/installation" rel="external nofollow noopener noreferrer" target="_blank">package control installation</a></p>
+<h2 id="All-Autocomplete"><a href="#All-Autocomplete" class="headerlink" title="All Autocomplete"></a>All Autocomplete</h2><p>자동완성을 도와줍니다.</p>
+<p><img src="https://c1.staticflickr.com/1/401/19239180481_30a4bbe8bf_o.png" alt="sublimetext-AllAutocomplete"></p>
+<h2 id="AutoFileName"><a href="#AutoFileName" class="headerlink" title="AutoFileName"></a>AutoFileName</h2><p>코딩시에는 CSS를 불러들이거나, 이미지를 불러들이는등 여러가지로 파일을 임포트 시킬 경우가 있습니다. 그럴경우에 자동으로 파일의 위치를 알려주어 작업을 용이하게 해줍니다.</p>
+<p><img src="https://c1.staticflickr.com/1/475/19209396496_1c486a953f_o.png" alt="sublimetext-AutoFileName"></p>
+<h2 id="Diffy"><a href="#Diffy" class="headerlink" title="Diffy"></a>Diffy</h2><p>파일을 비교해주는 플러그인입니다. 저같은 경우 Mac용 Kaleidoscope를 사용하고 있어서 실제로는 사용하지 않지만 필요하신 분들이 계실것 같아 목록에 추가시켜 보았습니다.</p>
+<p><img src="https://c1.staticflickr.com/1/415/19209333676_0af432f65d_o.png" alt="sublimetext-Diffy"></p>
+<p>비교하고 싶은 파일 2개를 불러들여 ‘View &gt; Layout &gt; Columns:2’를 선택한후 <kbd>⌘</kbd> + <kbd>K</kbd>, <kbd>⌘</kbd> + <kbd>D</kbd>순으로 누르면 다른 부분을 하이라이트 시켜줍니다. 별도로 파일비교툴을 사용하지 않는다면 이 팩키지만으로도 확인작업이 가능하리라 생각됩니다.</p>
+<h2 id="Emmet"><a href="#Emmet" class="headerlink" title="Emmet"></a>Emmet</h2><p>Zen-Coding은 많이 사용되고 있기에 따로 설명이 필요없겠죠? 예를 들어 html에서는 <code>&lt;ul&gt;li*5&gt;</code>처럼 작성후 <code>Ctr+e</code>로 ul안에 li를 5개만들어주는 작업이 가능하며, CSS에서는 <code>float:right</code>를 작성할 경우 <code>flr</code>이라고 작성하면 <code>float: right</code>처럼 작성됩니다.</p>
+<p><img src="https://c1.staticflickr.com/1/425/18614858753_7e48eb20ff_o.png" alt="sublimetext-Emmet"></p>
+<h2 id="GitGutter"><a href="#GitGutter" class="headerlink" title="GitGutter"></a>GitGutter</h2><p>혹시 Git을 사용하고 계신가요? 버전관리를 하고 계신분이라면 꼭! 추가시키시면 후회하지 않으실 플러그인입니다. 코드작업시에 이전 작업에서 수정된 부분과, 현재 작업을 진행하고 있는 부분을 확인시켜 주기 때문에 무척 도움이 됩니다.</p>
+<p><img src="https://c1.staticflickr.com/1/266/19047802790_77c46ddcf5_o.png" alt="sublimetext-GitGutter"></p>
+<h2 id="Goto-CSS-Declaration"><a href="#Goto-CSS-Declaration" class="headerlink" title="Goto-CSS-Declaration"></a>Goto-CSS-Declaration</h2><p>html에서 사용되고 있는 클래스를 선택한후 해당 옵션을 선택하면 자동으로 CSS의 해당 클래스로 이동됩니다.</p>
+<p><img src="https://c2.staticflickr.com/4/3754/18612944764_4b0f08289f_o.png" alt="sublimetext-Goto-CSS-Declaration"></p>
+<h2 id="SCSS"><a href="#SCSS" class="headerlink" title="SCSS"></a>SCSS</h2><p>SASS를 작업할때 Sublime에서는 Syntax가 적용되어 있지 않기 때문에 구분이 힘듭니다. 이 플러그인을 적용시킴으로 해서 알아보기 쉬어집니다.</p>
+<p><img src="https://c1.staticflickr.com/1/518/19049273119_bb31207637_o.png" alt="sublimetext-scss"></p>
+<h2 id="SublimeLinter"><a href="#SublimeLinter" class="headerlink" title="SublimeLinter"></a>SublimeLinter</h2><p>Lint의 경우는 각종 문법오류를 체크해줍니다. 작업하는 순간에 오류를 체크해주기 때문에 실수를 상당수 줄여줍니다.</p>
+<p><img src="https://c1.staticflickr.com/1/378/19229506942_df64fc001a_o.png" alt="sublimetext-lint"></p>
+<p>SublimeLinter-jshint, SublimeLinter-csslint, SublimeLinter-contrib-scss-lint, SublimeLinter-phplint등등이 있으니 작업환경에 맞추어서 적용시키면 좋을것 같습니다.</p>
+<h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><p>Tag를 열고 닫는작업을 수월하게 해줍니다. <code>&lt;tag&gt;</code>를 열고, <code>&lt;/&gt;</code>까지 입력하면 자동으로 닫아주는 플러그인입니다.</p>
+<p><img src="https://c1.staticflickr.com/1/527/19209332826_7ab3063b63_o.png" alt="sublimetext-Tag"></p>
+<h2 id="BracketHighlighter"><a href="#BracketHighlighter" class="headerlink" title="BracketHighlighter"></a>BracketHighlighter</h2><p>코딩의 기본은 각종 Tag의 열고 닫기입니다. 이 기본을 지키지 않으면 문제가 많이 있겠죠? 해당 패키지는 Tag의 열고 닫는 부분을 알기 쉽게 표시해 줍니다.</p>
+<p><img src="https://c2.staticflickr.com/4/3674/18614858843_e382c48f7f_o.png" alt="sublimetext-BracketHighlighter"></p>
+<h2 id="W3CValidators"><a href="#W3CValidators" class="headerlink" title="W3CValidators"></a>W3CValidators</h2><p>W3C에 접속해서 오류를 확인해 줍니다. 직접 사이트에 접속해서 확인하는 방법도 있지만 개인적으로는 너무 많은 정보를 보여주고 있기 때문에 이 플러그인처럼 오류가 나는 부분만을 뽑아서 보여준다는 점이 마음에 드는 부분입니다.</p>
+<p><img src="https://c2.staticflickr.com/4/3791/19049273799_2d6eba12f9_o.png" alt="sublimetext-W3C Validation"></p>
+<p>‘Tools &gt; W3C Validators’에서 체크하고자 하는 문서형식을 고르면 됩니다.<br>위 예제는 HTML의 마크업작업은 HTML5형식으로 작업한 후에 HTML4를 기준으로 체크를 진행한 예입니다.</p>
+<h2 id="Random-sublime-text-plugin"><a href="#Random-sublime-text-plugin" class="headerlink" title="Random-sublime-text-plugin"></a>Random-sublime-text-plugin</h2><p>다양한 형태의 랜덤 텍스트를 생성시켜줍니다.</p>
+<p><img src="https://media.giphy.com/media/3oz8xKvVpylFjnSLK0/giphy.gif" alt="random-sublime-text-plugin"></p>
+<p>샘플로 이메일을 랜덤으로 생성시켜봤습니다. 보시면 아시겠지만 텍스트, 컬러, 성, 이름, 이메일등등 다양한 옵션이 있습니다. 은근 사용하기 편합니다.</p>
+
+  </div>
+</article>
+<!-- Google Adsense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- sapjil -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6250165231176696" data-ad-slot="5559070679" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- // Google Adsense -->
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/solve/">solve</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Package-Control"><span class="toc-number">1.</span> <span class="toc-text">Package Control</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#All-Autocomplete"><span class="toc-number">2.</span> <span class="toc-text">All Autocomplete</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#AutoFileName"><span class="toc-number">3.</span> <span class="toc-text">AutoFileName</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Diffy"><span class="toc-number">4.</span> <span class="toc-text">Diffy</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Emmet"><span class="toc-number">5.</span> <span class="toc-text">Emmet</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#GitGutter"><span class="toc-number">6.</span> <span class="toc-text">GitGutter</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Goto-CSS-Declaration"><span class="toc-number">7.</span> <span class="toc-text">Goto-CSS-Declaration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SCSS"><span class="toc-number">8.</span> <span class="toc-text">SCSS</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SublimeLinter"><span class="toc-number">9.</span> <span class="toc-text">SublimeLinter</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tag"><span class="toc-number">10.</span> <span class="toc-text">Tag</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#BracketHighlighter"><span class="toc-number">11.</span> <span class="toc-text">BracketHighlighter</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#W3CValidators"><span class="toc-number">12.</span> <span class="toc-text">W3CValidators</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Random-sublime-text-plugin"><span class="toc-number">13.</span> <span class="toc-text">Random-sublime-text-plugin</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://sapjil.net/sublime-text-package/" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://sapjil.net/sublime-text-package/&text=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://sapjil.net/sublime-text-package/&title=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://sapjil.net/sublime-text-package/&is_video=false&description=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=코딩의 작업효율을 올려주는 Sublime Text Package&body=Check out this article: https://sapjil.net/sublime-text-package/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://sapjil.net/sublime-text-package/&title=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://sapjil.net/sublime-text-package/&title=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://sapjil.net/sublime-text-package/&title=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://sapjil.net/sublime-text-package/&title=코딩의 작업효율을 올려주는 Sublime Text Package" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://sapjil.net/sublime-text-package/&name=코딩의 작업효율을 올려주는 Sublime Text Package&description=" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 Nam Hyubsoo
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/category/www/">www</a></li>
+         
+          <li><a href="/category/seo/">seo</a></li>
+         
+          <li><a href="/category/solve/">solve</a></li>
+         
+          <li><a href="/category/coding/">coding</a></li>
+         
+          <li><a href="/category/design/">design</a></li>
+         
+          <li><a href="/category/freebie/">freebie</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+  <script type="text/javascript">
+      (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-389362-21', 'auto');
+      ga('send', 'pageview');
+  </script>
+
+
+<!-- Naver Analytics -->
+
+  <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+  <script type="text/javascript">
+  if(!wcs_add) var wcs_add = {};
+  wcs_add["wa"] = 'dcc6b3f31a92f8';
+  wcs_do();
+  </script>
+
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'sapjil';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+</body>
+</html>
