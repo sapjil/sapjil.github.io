@@ -22,7 +22,7 @@ jobs:
       run: |
         sudo npm install -g "@gridsome/cli"
 
-    - name: Insall npm package
+    - name: Install npm package
       shell: bash
       run: |
         npm install
