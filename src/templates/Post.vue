@@ -20,7 +20,7 @@
       <Adsense
         class="mb-5"
         ad-client="ca-pub-6250165231176696"
-        ad-slot="4113873473"
+        ad-slot="5559070679"
         ad-style="display:block !important;"
         ad-format="auto">
       </Adsense>
