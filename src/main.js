@@ -16,4 +16,12 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://github.githubassets.com/assets/gist-embed-d89dc96f3ab6372bb73ee45cafdd0711.css'
   })
+
+  head.script.push(
+    {
+      type: 'text/javascript',
+          src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+          async: true
+    }
+  )
 }

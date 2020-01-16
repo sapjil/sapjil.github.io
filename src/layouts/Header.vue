@@ -98,4 +98,9 @@ export default {
 ul {
   padding-inline-start: 1.5em;
 }
+
+pre {
+  width: 100%;
+  overflow-x: auto;
+}
 </style>

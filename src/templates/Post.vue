@@ -17,6 +17,13 @@
         <section v-html="$page.post.content" />
       </div>
 
+      <Adsense
+        class="mb-5"
+        ad-client="ca-pub-6250165231176696"
+        ad-slot="4113873473"
+        ad-style="display:block !important;"
+        ad-format="auto">
+      </Adsense>
     </div>
 
     <div class="post-comment">
@@ -39,7 +46,12 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
+import Adsense from '~/components/Adsense.vue';
+
 export default {
+  components: {
+    Adsense
+  },
   metaInfo() {
     return {
       title: this.$page.post.title
