@@ -6,7 +6,7 @@
     </strong>
     <nav class="nav">
       <g-link class="nav__link" to="/about/">About</g-link> | 
-      <g-link class="nav__link" to="/archive/">Archive</g-link>
+      <g-link class="nav__link" to="/archives/">Archives</g-link>
     </nav>
   </div>
 </template>

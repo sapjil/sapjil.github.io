@@ -4,7 +4,7 @@
       Build with <a href="https://gridsome.org/" target="_blank">Gridsome</a> & Made by minamiland.
     </p>
     <p>
-      <a href="/sitemap.xml">Sitemap</a> | <a href="/feed.xml">RSS</a> | <g-link to="/about/">About</g-link> | <g-link to="/archive/">Archive</g-link>
+      <a href="/sitemap.xml">Sitemap</a> | <a href="/feed.xml">RSS</a> | <g-link to="/about/">About</g-link> | <g-link to="/archives/">Archives</g-link>
     </p>
   </footer>
 </template>
