@@ -7,6 +7,8 @@ categories:
 - www
 ---
 
+![GitHub Pages + Custom Domain](https://live.staticflickr.com/65535/49421742256_d2f522cfd7_c.jpg)
+
 ## 배포할 때마다 도메인을 다시 잡아 줘야 한다면
 
 ### 문제점
