@@ -4,7 +4,7 @@
     <section>
       
       <div class="archive-outer">
-        <h1>Archive</h1>
+        <h1>Archives</h1>
 
         <ul>
           <li v-for="edge in $page.allPost.edges" :key="edge.node.id">

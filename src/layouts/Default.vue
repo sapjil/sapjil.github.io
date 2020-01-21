@@ -51,13 +51,24 @@ mark {
   background-color: #fcf8e3;
 }
 
+pre {
+  width: 100%;
+  overflow-x: auto;
+}
+
+pre code {
+  display: block;
+  padding: .5em;
+  border-radius: 0;
+}
+
 code {
-  border: 1px solid rgba(204, 42, 65, .2);
-  background-color: rgba(204, 42, 65, .1);
+  border: 1px solid #e2e8f0;
+  background-color: #f7fafc;
   border-radius: .3em;
-  font-size: 14px;
+  font-size: .75em;
   display: inline-block;
-  padding: 0 .3em;
+  padding: 0.25em;
   vertical-align: baseline;
 }
 
