@@ -20,8 +20,15 @@ export default function (Vue, { router, head, isClient }) {
   head.script.push(
     {
       type: 'text/javascript',
-          src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-          async: true
+      src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+      async: true
+    },
+    {
+      type: 'text/javascript',
+      src: 'https://browser.sentry-cdn.com/5.12.1/bundle.min.js',
+      integrity: 'sha384-y+an4eARFKvjzOivf/Z7JtMJhaN6b+lLQ5oFbBbUwZNNVir39cYtkjW1r6Xjbxg3',
+      crossorigin: 'anonymous'
+      // async: true
     }
   )
 }
