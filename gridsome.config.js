@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Sapjil',
-  siteDescription: '웹 사이트 제작에 필요한, 삽질을 줄일 수 있는 정보를 공유하고자 합니다.',
+  siteDescription: '웹 사이트 제작 시 삽질을 줄일 수 있는 정보를 공유하고자 합니다.',
   siteUrl: 'https://sapjil.net',
   titleTemplate: `%s | Sapjil`,
   icon: 'src/favicon.png',
